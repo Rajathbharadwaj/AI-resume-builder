@@ -8,6 +8,8 @@ from langchain_community.chat_models import ChatOllama
 from langchain.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 import fitz
+import ast
+from jobspy import scrape_jobs
 
 # Sidebar contents
 with st.sidebar:
@@ -47,32 +49,75 @@ def main():
         print(text)
 
         output_parser = StrOutputParser()
-        prompt = ChatPromptTemplate.from_messages([
-            ("system", "A text processed from a PDF file will be given to you. Your job is to extract skills from this text. \
-        These skills are strictly to be technical, don't extract other skills like soft skills or leadership or etc. Only extract technical skills. \
-        Now when you extract for skills, return to me in the decreasing order of occurrences of the skills. For example if pytorch is a skill, return to me pytorch as the 1st element if the number of times that skill has been used in the text is greater than other skills and so on.\
-         Here's the text"),
+        # prompt = ChatPromptTemplate.from_messages([
+        #     ("system", "A text processed from a PDF file will be given to you. Your job is to extract skills from this text. \
+        # These skills are strictly to be technical, don't extract other skills like soft skills or leadership or etc. Only extract technical skills. \
+        # Now when you extract for skills, return to me in the decreasing order of occurrences of the skills. For example if pytorch is a skill, return to me pytorch as the 1st element if the number of times that skill has been used in the text is greater than other skills and so on.\
+        #  Here's the text"),
+        #     ("user", "{text}")
+        # ])
+        # chain = prompt | llm | output_parser
+        # skills = chain.invoke({"text": text})
+        #
+        # prompt2 = ChatPromptTemplate.from_messages([
+        #     ("system", "I will give you number of technical skills as text. Your job is to return to the top Domain of the skill/framework. For eg, if the skill is react, then it's web dev. This is what i will use to perform job search. \
+        #  Return as a dictionary. Here's the skills"),
+        #     ("user", "{skills}")
+        # ])
+        # chain2 = prompt2 | llm | output_parser
+        # job_search_skills = chain2.invoke({"skills": skills})
+        #
+        # prompt3 = ChatPromptTemplate.from_messages([
+        #     ("system", "I will give you number of technical skills as string but it is actually a dict. Your job is to return to the top 3 Domain of the skill/framework. For eg, if the skill is react, then it's web dev. This is what i will use to perform job search. \
+        #  Return as a dictionary. This is an example output expected dict->'Name of skill': 'domain' Here's are the skills"),
+        #     ("user", "{job_search_clean}")
+        # ])
+        # chain3 = prompt3 | llm | output_parser
+        # cleaned_job_search = chain3.invoke({"job_search_clean": job_search_skills})
+        # st.write(cleaned_job_search)
+        #
+        prompt4 = ChatPromptTemplate.from_messages([
+            ("system", "I will give you a text extracted from a person's resume. This text contains the person's resume details. Your job is to tell me which domain is the candidate best suited for based on the skill sets such that we can perform a job match based on the resume.\
+                       Make sure to use all the information on the text to decide the best job for that candidate. There maybe multiple skillsets, but the most appropriate one is were the candidate has spent a lot of time on. It could by the virtue of building project or learning\
+                       a particular framework. Here is the text {text}"),
             ("user", "{text}")
         ])
-        chain = prompt | llm | output_parser
-        skills = chain.invoke({"text": text})
-
-        prompt2 = ChatPromptTemplate.from_messages([
-            ("system", "I will give you number of technical skills as text. Your job is to return to the top Domain of the skill/framework. For eg, if the skill is react, then it's web dev. This is what i will use to perform job search. \
-         Return as a dictionary. Here's the skills"),
-            ("user", "{skills}")
+        chain4 = prompt4 | llm | output_parser
+        job_matcher = chain4.invoke({"text": text})
+        st.write(f'{job_matcher}')
+        #
+        prompt5 = ChatPromptTemplate.from_messages([
+            ("system",
+             "I will give you a text which is a summary of a person's resume, now your job is to just give me the top 4 job roles based on this text as a python's list. Here's the text {text}"),
+            ("user", "{text}")
         ])
-        chain2 = prompt2 | llm | output_parser
-        job_search_skills = chain2.invoke({"skills": skills})
+        chain5 = prompt5 | llm
+        job_roles = chain5.invoke({"text": job_matcher})
+        st.write(job_roles.content)
+        print(ast.literal_eval(job_roles.content)[0])
 
-        prompt3 = ChatPromptTemplate.from_messages([
-            ("system", "I will give you number of technical skills as string but it is actually a dict. Your job is to return to the top 3 Domain of the skill/framework. For eg, if the skill is react, then it's web dev. This is what i will use to perform job search. \
-         Return as a dictionary. This is an example output expected dict->'Name of skill': 'domain' Here's are the skills"),
-            ("user", "{job_search_clean}")
-        ])
-        chain3 = prompt3 | llm | output_parser
-        cleaned_job_search = chain3.invoke({"job_search_clean": job_search_skills})
-        st.write(cleaned_job_search)
+        job_list = ast.literal_eval(job_roles.content)
+        option = st.selectbox(
+            "Based on your resume, these jobs are a good match. Select which you're looking for now",
+            options=job_list,
+        )
+        location_city = st.text_input('Enter the City', placeholder="Toronto")
+        location_country = st.text_input('Enter the Country', placeholder="CANADA")
+
+        if not location_country and not location_city:
+            st.warning('Enter the City and Country')
+        else:
+            with st.spinner(f"Searching for Jobs in {job_roles}"):
+                jobs = scrape_jobs(
+                    site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor"],
+                    search_term=f"{option}",
+                    location=f"{location_city.lower()}",
+                    results_wanted=40,
+                    hours_old=72,  # (only Linkedin/Indeed is hour specific, others round up to days old)
+                    country_indeed=f'{location_country.lower()}'  # only needed for indeed / glassdoor
+                )
+                jobs.to_csv()
+                st.dataframe(jobs)
 
 
 
