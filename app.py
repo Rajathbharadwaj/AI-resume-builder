@@ -1,21 +1,22 @@
 import csv
-
+from similarity import get_similarity
 import streamlit as st
 from dotenv import load_dotenv
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 from streamlit_extras.add_vertical_space import add_vertical_space
 from langchain_community.llms import Ollama
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
+from langchain_core.output_parsers import StrOutputParser, CommaSeparatedListOutputParser
 from langchain_community.chat_models import ChatOllama
 from langchain.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 import fitz
 import ast
 from jobspy import scrape_jobs
-from typing import Optional
+from typing import Optional, List
 from langchain_core.pydantic_v1 import BaseModel, Field
 import sentence_transformers
+from langchain_experimental.llms.ollama_functions import OllamaFunctions
 
 # Sidebar contents
 with st.sidebar:
@@ -32,22 +33,24 @@ with st.sidebar:
     st.write('AI Resume Builder [GitHub](https://github.com/Rajathbharadwaj/AI-resume-builder)')
 
 
-class Joke(BaseModel):
-    """Joke to tell user."""
+class Jobs(BaseModel):
+    """Given the following resume text, provide the top 4 job titles this person is suitable for.
+    Please ensure the job titles are standard and can be used for job searches on job portals.
+    The job titles should be concise and relevant to the person's skills and experience."""
 
-    setup: str = Field(description="The setup of the joke")
-    punchline: str = Field(description="The punchline to the joke")
-    rating: Optional[int] = Field(description="How funny the joke is, from 1 to 10")
+    jobs: List[str] = Field(description="The top 4 jobs")
+    # punchline: str = Field(description="The punchline to the joke")
+    experience: int = Field(description="Years of experience based on the resume")
 
 
 def main():
     load_dotenv()
-    llm = Ollama(model="llama3")
-    structured_llm = llm.with_structured_output(Joke)
-    structured_llm.invoke("Tell me a joke about cats")
+    llm = OllamaFunctions(model="llama3")
+    structured_llm = llm.with_structured_output(Jobs)
+    # llm.invoke("Tell me a joke about cats")
     st.header("Let's simplify job search, Upload your resume 💬")
-    location_city = st.text_input('Enter the City', placeholder="Toronto")
-    location_country = st.text_input('Enter the Country', placeholder="CANADA")
+    location_city = st.text_input('Enter the City', placeholder="Toronto", key='location_value')
+    location_country = st.text_input('Enter the Country', placeholder="CANADA", key='location_country')
 
     # upload a PDF file
     pdf = None
@@ -100,52 +103,72 @@ def main():
             # cleaned_job_search = chain3.invoke({"job_search_clean": job_search_skills})
             # st.write(cleaned_job_search)
             #
-            prompt4 = ChatPromptTemplate.from_messages([
-                ("system", "I will give you a text extracted from a person's resume. This text contains the person's resume details. Your job is to tell me which domain is the candidate best suited for based on the skill sets such that we can perform a job match based on the resume.\
-                           Make sure to use all the information on the text to decide the best job for that candidate. There maybe multiple skillsets, but the most appropriate one is were the candidate has spent a lot of time on. It could by the virtue of building project or learning\
-                           a particular framework. Here is the text {text}"),
-                ("user", "{text}")
-            ])
-            chain4 = prompt4 | llm | output_parser
-            job_matcher = chain4.invoke({"text": text})
-            st.write(f'{job_matcher}')
+            # prompt4 = ChatPromptTemplate.from_messages([
+            #     ("system", "I will give you a text extracted from a person's resume. This text contains the person's "
+            #                "resume details. Your job is to tell me which domain is the candidate best suited for "
+            #                "based on the skill sets such that we can perform a job match based on the resume.\ Make "
+            #                "sure to use all the information on the text to decide the best job for that candidate. "
+            #                "There maybe multiple skillsets, but the most appropriate one is were the candidate has "
+            #                "spent a lot of time on. It could by the virtue of building project or learning\ a "
+            #                "particular framework. Here is the text {text}"),
+            #     ("user", "{text}")
+            # ])
+            # chain4 = prompt4 | llm | output_parser
+            # job_matcher = chain4.invoke({"text": text})
+            # st.write(f' This is job matcher {job_matcher}')
             #
             prompt5 = ChatPromptTemplate.from_messages([
-                ("system",
-                 "I will give you a text which is a summary of a person's resume, now your job is to just give me the top 4 job roles based on this text as a python's list. Here's the text {text}"),
+                ("system", "Given the following resume {text}, provide the top 4 job titles this person is suitable for. "
+                           "Please ensure the job titles are standard and can be used for job searches on job portals. "
+                           "The job titles should be concise and relevant to the person's skills and experience. "
+                           "Return them as lists"),
                 ("user", "{text}")
             ])
-            chain5 = prompt5 | llm
-            job_roles = chain5.invoke({"text": job_matcher})
-            st.write(job_roles.content)
-            print(ast.literal_eval(job_roles.content)[0])
+            chain5 = prompt5 | structured_llm
+            job_roles = chain5.invoke({"text": text})
+            st.write(job_roles.jobs)
+            # print(ast.literal_eval(job_roles.content)[0])
+            print(f'Job roles are {job_roles.jobs}')
+            # job_roles_part = job_roles.split(':')[-1]
+            # # Split the job roles part by commas to get the list of roles
+            # job_roles_list = [role.strip() for role in job_roles_part.split(',')]
+            # print(job_roles_list)
 
-            job_list = ast.literal_eval(job_roles.content)
-
-            return job_list, job_roles
+            return job_roles.jobs, text
 
     if pdf:
-        job_list, job_roles = parse_resume()
-        option = st.selectbox(
-            "Based on your resume, these jobs are a good match. Select which you're looking for now",
-            options=job_list,
-        )
+        try:
+            job_roles, text = parse_resume()
 
-        if not location_country and not location_city:
-            st.warning('Enter the City and Country')
-        else:
-            with st.spinner(f"Searching for Jobs in {job_roles}"):
-                jobs = scrape_jobs(
-                    site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor"],
-                    search_term=f"{option}",
-                    location=f"{location_city.lower()}",
-                    results_wanted=40,
-                    hours_old=72,  # (only Linkedin/Indeed is hour specific, others round up to days old)
-                    country_indeed=f'{location_country.lower()}'  # only needed for indeed / glassdoor
+            if not location_country and not location_city:
+                st.warning('Enter the City and Country')
+            else:
+                option = st.selectbox(
+                    "Based on your resume, these jobs are a good match. Select which you're looking for now",
+                    options=job_roles,
                 )
-                jobs.to_csv("jobs.csv", quoting=csv.QUOTE_NONNUMERIC, escapechar="\\", index=False)  # to_excel
-            st.success("Found Jobs")
-            st.dataframe(jobs)
+
+                with st.spinner(f"Searching for Jobs in {option}"):
+                    jobs = scrape_jobs(
+                        site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor"],
+                        search_term=f"{option}",
+                        location=f"{location_city.lower()}",
+                        results_wanted=40,
+                        hours_old=72,  # (only Linkedin/Indeed is hour specific, others round up to days old)
+                        country_indeed=f'{location_country.lower()}'  # only needed for indeed / glassdoor
+                    )
+                    jobs.to_csv("jobs.csv", quoting=csv.QUOTE_NONNUMERIC, escapechar="\\", index=False)  # to_excel
+                st.success("Found Jobs")
+                st.dataframe(jobs)
+
+                with st.spinner(f"Looking for top 5 Jobs"):
+
+                    top_k = get_similarity(text, jobs)
+                    st.info('Top 5 jobs are')
+                    st.write(top_k)
+        except Exception as e:
+            st.error(f'{e} -> Try again')
+
 
         # chain.invoke({"input": text})
 
