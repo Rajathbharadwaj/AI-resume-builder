@@ -1,0 +1,15 @@
+langchain_community
+tiktoken
+langchain-openai
+langchain-cohere
+langchainhub
+chromadb
+langchain
+langgraph
+tavily-python
+streamlit
+langchain_ollama
+langgraph-cli
+langchain_pinecone
+python-jobspy
+fastapi[standard]
