@@ -1,331 +1,1046 @@
 "site","job_url","job_url_direct","title","company","location","job_type","date_posted","interval","min_amount","max_amount","currency","is_remote","emails","description","company_url","company_url_direct","company_addresses","company_industry","company_num_employees","company_revenue","company_description","logo_photo_url","banner_photo_url","ceo_name","ceo_photo_url"
-"glassdoor","https://www.glassdoor.ca/job-listing/j?jl=1009375719419","","Research Support (Special Projects Assistant)","York University","Toronto","","2024-07-22","","","","",False,"","**Purpose:**  
+"glassdoor","https://www.glassdoor.ca/job-listing/j?jl=1009377129683","","Delivery Consultant Manager - Automation","IBM","Markham","","2024-07-23","yearly",74000.0,100886.0,"CAD",False,"","Introduction  
 
-The Special Project Assistant is responsible for providing administrative support for special projects and activities.  
+Joining the IBM Technology Expert Labs teams means you'll have a career delivering world-class  
 
-  
+services for our clients. As the ultimate expert in IBM products, you'll bring together all the  
 
-**Education:**  
+necessary technology and services to help customers solve their most challenging problems.  
 
-Must be enrolled as a York student  
+Working in IBM Technology Expert Labs means accelerating the time to value confidently and  
 
-  
+ensuring speed and insight while our clients focus on what they do best running and growing their  
 
-**Experience:**  
+business.  
 
-Previous work experience may be considered  
+Excellent onboarding and industry-leading learning culture will set you up for a positive impact,  
 
-  
+while advancing your career. Our culture is collaborative and experiential. As part of a team, you will  
 
-**Skills:**  
+be surrounded by bright minds and keen co-creators—always willing to help and be helped—as you  
 
-Ability to demonstrate organizational skills to carry out a variety of tasks.Ability to meet deadlines and organize time effectively. Ability to present data in a variety of document and display formats.Ability to use research methods to identify and verify information.Ability to use social & digital media to effectively communicate or respond to others.  
-
-  
-
-
-
-Participation in work study positions is restricted to undergraduate students who meet program requirements. For information about eligibility criteria and to access the application, please visit https://sfs.yorku.ca/work-study-programs.
-
-**The University welcomes applications from all qualified individuals, including, but not limited to women, persons with disabilities, visible minorities (racialized), Indigenous Peoples and persons of any gender identity and sexual orientation. York University is committed to a positive, supportive and inclusive environment.**  
+apply passion to work that will positively impact the world around us.  
 
   
 
-**York University offers accommodation for applicants with disabilities in its recruitment processes. If you are contacted by York University regarding a job opportunity or testing, please advise if you require accommodation.**  
+Your Role and Responsibilities  
+
+As a Delivery Consultants Manager, you will apply your strong foundation of technology expertise to  
+
+hire, coach, and cultivate high performing teams made up of diverse, exceptional services delivery  
+
+professionals. You will develop a high performing team who engages with clients to deliver projects  
+
+for IBM Technology while fostering a learning culture where your team develops and demonstrates  
+
+their skills. In this role you will coach and lead from the front as s a trusted, empathetic leader  
+
+committed to your team's and client's success. As a leader of this fast pace, client focused team,  
+
+you'll collaborate across IBM to optimize services engagements and trailblaze new solutions that  
+
+address real business challenges.  
+
+We're passionate about success. If this role is right for you, then your achievements mean your  
+
+career is flourishing, your teams are succeeding, and our clients are thriving. To help ensure this  
+
+win-win outcome, a 'day-in-the life' of this role may include, but not be limited to…  
+
+* Building Exceptional Client-Facing Team: Hiring, nurturing, and developing a technical
+
+
+client-facing team of exceptional delivery professionals in IBM Technology.  
+
+* Accelerating Adoption of IBM Technology: Collaborating with your Delivery Consultants, the
+
+
+IBM Account team, clients, and partners to accelerate delivery and adoption of IBM  
+
+Technology.  
+
+* Building Client Relationships: Creating and maintaining enduring, trusted relationships at
+
+
+technical levels within clients (including CIO's, CTO's, Developers, Data Scientists,  
+
+Architects) and establishing IBM as an essential partner.  
+
+* Team Coaching for Success: Coaching your team, with clarity and conviction, to ensure they
+
+
+fully understand how to do their jobs successfully and achieve their KPI including utilization,  
+
+customer satisfaction and quality standards.  
+
+* Profit and Loss Management: Evaluating and managing profit and loss for your assigned
+
+
+resources.  
+
+* Growth Mindset Traits in Problem-Solving: Demonstrating growth mindset, courage,
+
+
+curiosity, and leadership in solving problems.
+NAIWD24
 
   
 
-**We are committed to enhancing our environmentally and socially responsible practices for the benefit of all members of the York community. Our long term perspective recognizes our responsibility to be innovators and to continually work as a community to reduce our ecological impact.**  
+Required Technical and Professional Expertise  
+
+* Experienced Technical Leader: Seasoned technical leadership with the associated credibility, having proven experience of managing large diverse services delivery teams, with a specific focus on scaling these teams through effective performance management, process improvement and delivering on team KPI targets. It is the proven ability to translate tactical imperatives into operational discipline to achieve defined outcomes, while driving the adoption of complex, enterprise-grade technology solutions.
+* Coaching Excellence and Culture Growth: Demonstrable mastery of deal and situational
+
+
+coaching, whilst fostering a high performing, growth-minded and candid culture.  
+
+* Practical Skills in Technology Areas: Deep practical and applied skills in one of the following
+
+
+areas (with competent understanding across a broad selection of products within the  
+
+respective portfolio’s and importantly, their enterprise inter-connectivity): Cloud, Data and  
+
+AI, Automation, Integration or Security.  
+
+* Financial Oversight and Management: Experience of oversight and management of profit
+
+
+and loss  
 
   
 
-**York University employees must apply to jobs through the Employee Career Portal - YU Hire. If you are a current York University employee and/or are using your rights under a collective agreement to view and/or apply to jobs, you MUST log into YU Hire to access the York University Employee Career Portal.**  
+Preferred Technical and Professional Expertise  
+
+* Automation Technologies: Experience with one more of the following Automation
+
+
+technologies: MQ, API Connect, App Connect Enterprise, Cloud Pak for Automation, Cloud  
+
+Pak for Integration, Tivoli Monitoring, Instana, Netcool, Watson AI Ops, Turbonomic or the  
+
+equivalent enterprise solution.  
+
+* Multi-Cloud Platforms: Working knowledge of AWS, Azure and VMware Virtualization.
+* Programming Skills: Working knowledge and skills working with Java, Shell scripting,
+
+
+python, Kubernetes, Containers, Perl)  
+
+About Business UnitIBM has a global presence, operating in more than 175 countries with a broad-based geographic distribution of revenue. The company’s Global Markets organization is a strategic sales business unit that manages IBM’s global footprint, working closely with dedicated country-based operating units to serve clients locally. These country teams have client relationship managers who lead integrated teams of consultants, solution specialists and delivery professionals to enable clients’ growth and innovation. By complementing local expertise with global experience and digital capabilities, IBM builds deep and broad-based client relationships. This local management focus fosters speed in supporting clients, addressing new markets and making investments in emerging opportunities. Additionally, the Global Markets organization serves clients with expertise in their industry as well as through the products and services that IBM and partners supply. IBM is also expanding its reach to new and existing clients through digital marketplaces.  
 
   
 
-**PLEASE NOTE: Applications must be received by 11:55 pm EST on the posted deadline date, if applicable.**","https://www.glassdoor.ca/Overview/W-EI_IE141035.htm","","","","","","","","","",""
-"glassdoor","https://www.glassdoor.ca/job-listing/j?jl=1009374830308","","Market Research Analyst (Full Time) Windsor, ON","Big Time Tickets Inc","Toronto","","2024-07-22","yearly",100000.0,110000.0,"CAD",False,"","Relocation assistance will be available.
+Your Life @ IBMIn a world where technology never stands still, we understand that, dedication to our clients success, innovation that matters, and trust and personal responsibility in all our relationships, lives in what we do as IBMers as we strive to be the catalyst that makes the world work better.
+Being an IBMer means you’ll be able to learn and develop yourself and your career, you’ll be encouraged to be courageous and experiment everyday, all whilst having continuous trust and support in an environment where everyone can thrive whatever their personal or professional background.
 
-**Company description**
 
-Big Time Tickets Inc. is devoted to being one of the leading providers of concert and live event tickets for the modern-day buyer. We serve a wide variety of customers daily, across the most trusted and secure ticket exchanges in the nation.
+Our IBMers are growth minded, always staying curious, open to feedback and learning new information and skills to constantly transform themselves and our company. They are trusted to provide on-going feedback to help other IBMers grow, as well as collaborate with colleagues keeping in mind a team focused approach to include different perspectives to drive exceptional outcomes for our customers. The courage our IBMers have to make critical decisions everyday is essential to IBM becoming the catalyst for progress, always embracing challenges with resources they have to hand, a can-do attitude and always striving for an outcome focused approach within everything that they do.
 
-**Job description**
 
-Big Time Tickets Inc. is an entrepreneurial, fast-growing, tech start-up devoted to being one of the leading providers of concert and live event tickets for the modern-day buyer. We serve a wide variety of customers daily, across the most trusted and secure ticket exchanges in the nation. We are currently seeking a **Market Research Analyst** to join our growing organization. This individual will maintain knowledge of popular events (e.g., Music, Sports, Broadway, Comedy), obtain and analyze market sales data and provide corresponding buying recommendations.
+Are you ready to be an IBMer?
 
-**Role & Responsibilities**
+  
 
-**Research**
+About IBMIBM's greatest invention is the IBMer. We believe that through the application of intelligence, reason and science, we can improve business, society and the human condition, bringing the power of an open hybrid cloud and AI strategy to life for our clients and partners around the world.  
 
-· Analyze market trends in both primary and secondary ticketing markets.
+  
 
-· Monitor current as well as future events for purchase using various data resources.
+Restlessly reinventing since 1911, we are not only one of the largest corporate organizations in the world, we’re also one of the biggest technology and consulting employers, with many of the Fortune 50 companies relying on the IBM Cloud to run their business.
+  
 
-· Stay current and up to date in live entertainment space.
+  
 
-· Understand and analyze the layout of venues across North America.
+At IBM, we pride ourselves on being an early adopter of artificial intelligence, quantum computing and blockchain. Now it’s time for you to join us on our journey to being a responsible technology innovator and a force for good in the world.  
 
-· Use census data, social media data, google trends, etc to develop purchasing models.
+  
 
-**Analysis**
+Location StatementMust have the ability to work in Canada without sponsorship.  
 
-· Compute, collect, organize, and analyze data to inform purchasing decisions.
+  
 
-· Closely analyze various markets for potential buying opportunities.
+This role will involve working with technology that is covered by Export Regulations sanctions. If you are a Foreign National from any of the following US sanctioned countries (Cuba, Iran, North Korea, Syria, and the Crimea, Luhansk, Donetsk, Kherson, and Zaporizhia regions of Ukraine) on a work permit, you are not eligible for employment in this position.  
 
-· Develop an understanding of market pricing and be able to identify price inefficiencies.
+  
 
-· Develop an understanding of province/state, and city demographics throughout North America to aide in buying recommendations.
+Being You @ IBMIBM is committed to creating a diverse environment and is proud to be an equal-opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, gender, gender identity or expression, sexual orientation, national origin, caste, genetics, pregnancy, disability, neurodivergence, age, veteran status, or other characteristics. IBM is also committed to compliance with all fair employment practices regarding citizenship and immigration status.","https://www.glassdoor.ca/Overview/W-EI_IE354.htm","","","","","","","","","",""
+"glassdoor","https://www.glassdoor.ca/job-listing/j?jl=1009377328527","","Senior Embedded Firmware Engineer (C++ / RTOS / Python)","Renewable Energy Grid Solutions","Markham","","2024-07-23","yearly",99375.0,114821.0,"CAD",False,"","**Job Description Summary**
+===========================
 
-**Qualifications**
 
-The candidate must possess a minimum of a Bachelor’s Degree in Business, Economics or Finance. They must have prior experience/knowledge in the sports and/or entertainment industry. You have an interest in popular culture and are an organized individual and analytical thinker. The successful candidate will be proficient in MS Word, Excel, and/or Google Suite. You are someone that works well in ambiguity and has an entrepreneurial spirit. You thrive on opportunity and are highly motivated by being rewarded based on your performance. The successful candidate will not be afraid to “roll up their sleeves” and work outside typical hours as needed. You have strong communication and interpersonal skills and work well within a team environment.
+Come bring your energy to change the world  
 
-Work remotely
+  
 
-* No
+Grid Solutions, part of the GE Vernova portfolio of energy businesses, serves customers globally with over 12,000 employees. Grid Solutions provides equipment, systems, and services to bring power reliably and efficiently from the point of generation to end power consumers. We electrify the world with advanced grid technologies and accelerate the energy transition.
+  
 
-Job Types: Full-time, Fixed term contract  
-Contract length: 12 months
+  
 
-Pay: $100,000.00-$110,000.00 per year
+GE Vernova, a dynamic accelerator comprised of our Power, Renewable Energy, Digital, and Energy Financial Services businesses, is focused on leading a new era of energy - electrifying the world while simultaneously working to decarbonize it.  
+
+  
+
+If you are ready to make a difference and usher in a new era of energy, come join us.  
+
+  
+
+We’re Grid Automation, part of the Grid Solutions business and a leader in the protection, control, and automation of the world’s power grids. If you’re looking for a software engineering career that can make a real difference to the world, we’d like to connect.  
+
+  
+
+More sustainable grids require better visibility, faster controls, and advanced automation - challenges addressed through innovative and flexible software solutions. As part of our team, you could:  
+
+  
+
+* Help develop new software tools and sophisticated control systems to enable next-generation networks
+* Help create a fleet of intelligent edge devices to protect, control, and automate the grid
+* Build control solutions for a microgrid
+* Develop the algorithms and analytics that optimize the electrical grid and enable it to become autonomous
+
+  
+
+What’s in it for you?  
+
+Gain experience across new technologies  
+
+* Design and develop cloud applications, edge computing solutions, and AI analytics, utilizing technologies such as Kubernetes, Kafka, gRPC, Go, and JavaScript
+* Implement microservice architecture and containerization to ensure scalability, reliability, and maintainability of software solutions
+* Participate in the full software development lifecycle, including requirement analysis, design, implementation, testing, and deployment
+* Leverage state-of-the-art DevOps tools and practices, including Jenkins, Jira, and others, to support development and deployment processes
+
+  
+
+Advancement and training opportunities  
+
+* Take advantage of in-house and external training opportunities on new technologies
+* Benefit from buddy, mentoring, and coaching programs
+* Participate in our Affinity Network and be part of a diverse and inclusive community that enriches company culture through community involvement
+
+  
+
+Experience a global culture like no other  
+
+  
+
+* Connect with R&D offices in France, UK, Spain, India, Canada, Brazil, and the US
+* Work with cross-functional team members across the globe
+* Collaborate online, join in-person working sessions, or apply to travel the world on international assignments
+
+  
+
+#GASW  
+
+  
+
+GE Vernova. Change starts here.  
+
+  
+
+In this role you'll be responsible for designing , developing and testing Embedded Software (Firmware), platforms and systems that runs on devices that need to be tailored to the needs of the hardware that it has to run on.
+  
+
+  
+
+As part of a multi-developer firmware team the major responsibilities will include analysis, design, implementation and testing of firmware for Transmission product line. You will report to the Senior Software Manager. #LI-SH1**Job Description**
+===================
+
+**About us:**  
+
+Grid Solutions, a GE Renewable Energy business, serves customers globally with over 12,000 employees. We provide power utilities and industries worldwide with equipment, systems, and services to bring power reliably and efficiently from the point of generation to end power consumers. We are focused on addressing the challenges of the energy transition by enabling the safe and reliable connection of renewable and distributed energy resources to the grid. For more about GE’s Grid Solutions, visit https://www.gegridsolutions.com.
+
+**Essential Responsibilities:**
+
+* Architects, designs and/or programs/develops a small module or a large component, feature, set of features, whole feature area or entire embedded software product. Some areas of expertise may include, but is not limited to, networks, operating systems, cybersecurity, databases, or applications.
+* Identifies scope of the work, provide initial estimate and justify the estimate with facts
+* Engages in technical discussions; participates in technical designs and presents technical ideas through white boarding
+* Designs and implements features or components of feature on request from various programs
+* Works closely with peers and keeps engaging in a fast pace technical design and development team
+* Executes in a fast pace delivery mode and focuses in delivering tasks to meet the product release goal
+* Maintains code quality through best practices, code reviews and unit testing
+* Customer-oriented focus in the root cause analysis of issues during programs execution
+* Seeks and provides feedback on design and development
+* Demonstrates the ability to make informed technology choices after due diligence and impact assessment
+* Articulates the need for scalability and understand the importance of improving quality through testing.
+* Provides guidance to other team members with either planning and execution and/or design architecture
+
+**Required Qualifications:**
+
+* Bachelor’s Degree in Computer Science, Electrical Engineering, or Computer Engineering.
+* Minimum of 8 years of embedded development experience.
+
+**Desired Characteristics:**
+
+* C++ preferably C++17 programming skills and understanding of object oriented design and development
+* Strong grasp of RTOS; VxWorks, embedded Linux fundamentals
+* Good understanding and programming skills of modern languages such as GO and Python
+* Exposure to modern development environments CI/CD, automated software unit-testing
+* Knowledge of microcontrollers; NXP Freescale family, Xilinx SoC’s, Altera SoC's
+
+**Additional Information**
+==========================
+
+**Relocation Assistance Provided:** No","https://www.glassdoor.ca/Overview/W-EI_IE740889.htm","","","","","","","","","",""
+"glassdoor","https://www.glassdoor.ca/job-listing/j?jl=1009375554878","","Senior DevOps Engineer","FundMore.ai","Toronto","","2024-07-22","","","","",False,"HR@fundmore.ai","AWS Cloud Infrastructure, Serverless, Security, Compliance, and Observability
+
+**Position Overview:**
+
+FundMore is seeking a talented and dedicated DevOps Engineer to join our dynamic team. The ideal candidate will play a crucial role in managing our AWS-based cloud infrastructure, enhancing our security and compliance measures, continuously improving our observability stack and monitoring practices, and collaborating with partners and customers. This position requires a deep understanding of AWS services, serverless technologies, security best practices, and modern observability tools, as well as experience with NodeJS, NestJS, and PostgreSQL.
+
+**Key Responsibilities:**
+
+* **AWS Cloud Infrastructure Management:**
+* Design, implement, and manage scalable, secure AWS cloud infrastructure.
+* Utilize AWS services such as EC2, S3, RDS, Lambda, API Gateway, CloudFront, and Cognito to build robust, serverless solutions.
+* Ensure high availability, fault tolerance, and disaster recovery capabilities of AWS systems.
+* Automate infrastructure provisioning and management using Serverless Framework and AWS CloudFormation.
+* **System Architecture:**
+* Develop and maintain cloud applications using AWS Lambda and other serverless services.
+* Optimize cloud deployments for performance, cost, and scalability.
+* Implement best practices for cloud based, serverless microservice application development and deployment.
+* **Security and Compliance:**
+* Implement and enforce security best practices and compliance standards (SOC 2, GDPR, ISO).
+* Manage IAM roles and policies to ensure least privilege access.
+* Conduct regular security audits, vulnerability assessments, and penetration testing.
+* Maintain comprehensive documentation of security and compliance measures.
+* **Observability and Monitoring:**
+* Develop and enhance the observability stack, including logging, monitoring, and alerting systems.
+* Implement and manage monitoring tools such as AWS CloudWatch, GuardDuty, Security Hub, Prometheus, and Grafana.
+* Ensure comprehensive visibility into system performance, availability, and security.
+* Set up automated alerts for key metrics and incidents.
+* **CI/CD Pipeline Management:**
+* Maintain and optimize CI/CD pipelines using tools like AWS CodePipeline, CodeBuild, and GitHub Actions.
+* Ensure seamless integration and deployment processes with automated testing and validation.
+* **Collaboration and Communication:**
+* Work closely with development teams to integrate security and observability into the development lifecycle (DevSecOps).
+* Conduct regular training sessions on security practices, compliance requirements, and observability tools.
+* Participate in daily scrums, sprint planning, and retrospectives to align on project goals and deliverables.
+* **Partner and Customer Integration Support:**
+* Collaborate with partners to support and implement integrations with FundMore's platform.
+* Work with customers' internal IT teams to ensure smooth integration and operation of FundMore’s solutions.
+* Assist the Customer Success team in answering technical operations questions and resolving issues related to infrastructure, security, and performance.
+
+**Qualifications:**
+
+* Bachelor’s degree in Computer Science, Information Technology, or related field.
+* 5+ years of experience in DevOps roles, with a focus on AWS cloud infrastructure, serverless technologies, security, and observability.
+* Proficiency in AWS services, including Lambda, API Gateway, CloudFront, S3, RDS, and IAM.
+* Experience with automation and configuration management tools like Serverless Framework, AWS CloudFormation, Terraform, or Ansible.
+* Strong understanding of network and data security principles, including encryption, IAM, and security monitoring.
+* Familiarity with compliance frameworks such as SOC 2, GDPR, and ISO.
+* Proven experience with observability tools such as AWS CloudWatch, GuardDuty, Prometheus, and Grafana.
+* Experience with NodeJS, NestJS, and PostgreSQL.
+* Excellent problem-solving skills and the ability to perform under pressure.
+* Strong communication and collaboration skills.
+
+**Preferred Skills:**
+
+* AWS certifications (e.g., AWS Certified Solutions Architect, AWS Certified DevOps Engineer).
+* Knowledge of microservices architecture.
+* Experience with modern CI/CD tools and practices.
+* Familiarity with agile development methodologies and tools like Github and Jira.
+
+**Why FundMore:**
+
+* Competitive salary and benefits package.
+* Opportunity to work with cutting-edge technologies in a dynamic and innovative environment.
+* Collaborative and inclusive company culture.
+* Continuous learning and professional development opportunities.
+
+**How to Apply:**
+
+Interested candidates are invited to submit their resume and cover letter detailing their relevant experience and interest in the position to HR@fundmore.ai.
+
+FundMore is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
+
+Job Type: Full-time
 
 Benefits:
 
-* Casual dress
-* Company events
 * Dental care
 * Extended health care
-* On-site gym
-* On-site parking
+* Paid time off
 
-Schedule:
+Experience:
 
-* Monday to Friday
-* Weekends as needed
+* DevOps: 3 years (required)
 
-Supplemental pay types:
+Work Location: Hybrid remote in Toronto, ON M5J 2P1
 
-* Bonus pay
+Application deadline: 2024-08-01  
+Expected start date: 2024-09-01","","","","","","","","","","",""
+"glassdoor","https://www.glassdoor.ca/job-listing/j?jl=1009375772948","","SAP PP and QM Functional Consulting Manager","Accenture","Toronto","","2024-07-22","","","","",False,"","ARE YOU READY to step up and take your technology expertise to the next level?  
 
-Ability to commute/relocate:
-
-* Toronto, ON: reliably commute or plan to relocate before starting work (required)
-
-Education:
-
-* Bachelor's Degree (required)
-
-Work Location: In person","","","","","","","","","","",""
-"glassdoor","https://www.glassdoor.ca/job-listing/j?jl=1009373645555","","Research Analyst - Temerty Centre","Centre for Addiction and Mental Health","Toronto","","2024-07-20","hourly",27.0,36.0,"CAD",False,"","**Job Description**
+There is never a typical day at Accenture, but that’s why we love it here! This is an extraordinary chance to create a rewarding career at Accenture Technology. Working in a digitally driven, innovation-led environment where you can help clients shift to the New using leading-edge technologies on some of the coolest projects you can imagine.
 
 
-The Temerty Centre for Therapeutic Brain Intervention is seeking a full-time, contract (12 months) Research Analyst. The incumbent will report to the Manager and join a productive team in one of the world’s leading centres in treatment, research and training related to brain stimulation therapies. In addition to clinical treatment trials, the team also specializes in neurophysiology studies aimed at providing novel insights into brain function in individuals with psychiatric disorders.
+We are:  
+
+Accenture’s SAP practice, and we bring the New to life using design thinking, agile development methodologies, and the latest smart tech like IoT, automation, and AI. We even built myConcerto, a mix of SAP and Accenture that helps lead our clients to big wins. Ready to learn as much as you can? We train our people on ""new"" SAP like SAP Leonardo, S/4HANA and Cloud, and we offer classes and support through our 50,000+ member community. It’s also nice to know our hard work doesn’t go unrecognized. We’ve got over 70 SAP awards—more than any other partner—and we’re the leading business partner for SAP SuccessFactors, SAP Ariba, SAP Hybris, SAP FieldGlass, SAP Concur, and more. Visit us here to find out more about Accenture's SAP practice.
 
 
-Duties primarily include but are not limited to the administration of brain stimulation protocols and neurophysiological paradigms, which include Transcranial Magnetic stimulation (TMS), Paired associative stimulation (PAS), Electroencephalogram (EEG), and Electromyography (EMG) and working with neuronavigation software and protocols. In addition, the incumbent will provide support with research procedures to the treatment team in a number of randomized controlled trials comparing the efficacy and safety of convulsive therapies. Additional duties include clinical and cognitive assessments of enrolled participants, independent participant recruitment, education and dissemination of information about studies to patients, families and mental health professionals, assessment scoring and data entry, scheduling of study visits, escorting participants to study-related appointments, transporting samples, maintaining subject records and study documents, assisting with REB and other regulatory submissions. You will support a workplace that embraces diversity, encourages teamwork and complies with all the applicable regulatory and legislative requirements. This position is located at 1025 Queen Street West but will require travel between the College/ Ursula Franklin and Queen Street sites. The incumbent must be adaptable and willing to work flexible hours in order to reasonably accommodate participants’ schedules.
+Project Role Description:  
+
+Design business processes, including characteristics and key performance indicators (KPIs), to meet process and functional requirements. Work closely with the Application Architect to create the process blueprint and establish business process requirements to drive out application requirements and metrics. Role includes implementing, customizing, and maintaining SAP solutions in the areas of Production Planning and Quality Management. Work involves close interactions with clients to understand their business requirements, translate them into functional specifications, and leverage your expertise to configure and optimize SAP PP/QM modules.
 
 
-**Job Requirements**
+Key Responsibilities:  
 
-
-The successful candidate will have a Bachelor’s Degree in a health related field combined with one (1) year of relevant experience. Experience working or volunteering in an academic laboratory setting and established skills in neurophysiological procedures related to brain stimulation are required. Previous experience in the administration of neuropsychological assessments, structured diagnostic interviewing, and clinical rating scales is an asset. Excellent organizational skills and the ability to multitask are essential. Preference will be given to candidates with background and experience in working with individuals who have mental health and/or substance use challenges. Confidence in all components of Microsoft Office and Internet search engines is required. You must possess excellent written and verbal communication skills and have the ability to work effectively with a diverse population and within a dynamic team environment. Bilingualism (French/English) or proficiency in a second language would be an asset.
-
-**Vaccines (COVID-19 and others) are a requirement of the job unless you have an exemption on a medical ground pursuant to the Ontario Human Rights Code.**","https://www.glassdoor.ca/Overview/W-EI_IE335501.htm","","","","","","","","","",""
-"indeed","https://ca.indeed.com/viewjob?jk=552629d91d8f0443","https://jobs-ca.technomedia.com/yorkuniversity/?_4x1F8B08000000000000FF6D8FBD0E83201845DF86D1F0A1880E0CD69FC6A9491B67A3820DAD05029AD4B7AF6974733FF79E7BADB1B5E0181927A4E337576B35DFE588866E9AA45B16257898D09011CA5A60344D198E5A6828B418488C917FCBF52A75B1EA73EEC08C9B79513E72745609511B37D18E5A6706E97D3DCB0FB75BAC9B8297E9ADF1B3D2CFE0050423673AA1974FBF2D3E9392BD496D5F9AA62E4EA143E7BF0337E3289D12FF339C4099674998411C3312966956C1A56414A71525B82AF21F7D456E7C32010000&offerid=10595","Research Support (Special Projects Assistant)","York University","Toronto, ON, CA","","2024-07-22","","","","",False,"","**Purpose:**  
-
-The Special Project Assistant is responsible for providing administrative support for special projects and activities.  
-
-  
-
-**Education:**  
-
-Must be enrolled as a York student  
+* Blueprint, Design, Build of SAP S4 PP & QM environment to meet business process and application requirements. Provide Solutioning to specific client requirements
+* Should be able to drive discussion with the client and conduct workshops
+* Should be able to drive SAP PP & QM project deliverables and liaison with partner teams
+* Collaborate with stakeholders to gather and analyze business requirements related to Production Planning and Quality Management.
+* Play the role of stream lead for individual SAP PP & QM functionalities and establishing business processes
+* Implement and deploy SAP solutions, including integration with other SAP modules and external systems.
+* Conduct system testing, assist in user acceptance testing (UAT), and provide post-go-live support.
+* Develop and maintain technical documentation, process flow diagrams, and training materials.
+* Provide guidance and support to end-users on SAP PP/QM functionality, troubleshooting issues as they arise.
+* Stay updated with SAP releases, new features, and industry trends to recommend and implement continuous improvements.
+* Collaborate with cross-functional teams, including SAP developers, business analysts, and project managers, to deliver high-quality solutions.
 
   
 
-**Experience:**  
+Here’s what you need:  
 
-Previous work experience may be considered  
+* Minimum of 7 years experience in end to end SAP PP and QM implementation as well as experience integrating with other SAP modules.
+* Minimum of 2 years experience with S/4 Hana
+* Minimum of 1 year experience managing teams in a Global Delivery module
+* Bachelor's degree or equivalent
+* Ability to act as a Functional Solution Architect within the functional area, providing high-level design expertise.
+* Extensive experience in SAP S/4 transformations and a track record of successful project implementations.
+* Proven capability in defining functional roadmaps and strategies for clients.
+* Experience in leading business process reengineering efforts to optimize finance-related workflows and enhance process efficiency.
+* Ability to collaborate with stakeholders at various levels, including C-suite executives, to present functional strategies and gain buy-in.
+* English is required for this position as this role will regularly interact with stakeholders across
+
+
+Canada, US and other countries across our Global footprint where English is the common  
+
+language. Due to the significant high volume of interactions with these English-speaking  
+
+stakeholders, which is inherent to this position, it is not possible to reorganize the company's  
+
+activities to avoid this requirement
+Bonus points if:  
+
+* You are fluent in French
+* You’ve got external consulting experience
+* You know how SAP’s business development process works and you can help clients understand how SAP will help their company do more
+
+#LI-NA  
+
+#LI-MP","https://www.glassdoor.ca/Overview/W-EI_IE4138.htm","","","","","","","","","",""
+"glassdoor","https://www.glassdoor.ca/job-listing/j?jl=1009375982736","","Salesforce Solution Architect, CPQ","NeuraFlash","Toronto","","2024-07-22","yearly",90000.0,120000.0,"CAD",False,"","### **About NeuraFlash:**
+
+
+
+We are a leading AI and Consulting Partner of Amazon & Salesforce obsessed with helping our customers transform their contact centers with AI Powered Experiences. Our expertise spans across the Amazon ecosystem with Amazon Connect, Lex & Contact Lens and Salesforce ecosystem with Service Cloud Voice, Einstein Bots and Digital Channels, Service Cloud, Field Service, CPQ, MuleSoft, and Einstein Analytics. We are experts in building experiences grounded in data that transform and optimize the employee and customer journey.
+
+
+### **What sets NeuraFlash apart?**
+
+
+
+Join NeuraFlash, where growth is not just a goal, but a way of life! Since our inception in 2016, we've been on a rocket ship, soaring to an average of 35%+ growth year over year. This rapid expansion has unlocked a world of exciting career opportunities for our team.
+
+
+
+Imagine stepping into the heart of innovation, working with cutting-edge technologies like Salesforce, GenAI, and Amazon. Here, you won't just keep pace with the industry; you'll set it!
+
+
+
+But growth isn't just about the company; it's about you. At NeuraFlash, we believe in endless learning. Our technical boot camps are your gateway to mastering new skills and technologies. Whether you're diving into GenAI or conquering Service Cloud Voice, we've got your back.
+
+
+
+Our success is rooted in the satisfaction of our customers, and our exceptional CSAT score reflects that. Join our team, and you'll play a pivotal role in leading these impactful initiatives, contributing to meaningful change.
+
+
+
+We are committed to nurturing positive working relationships, enabling us to harness the full potential of our team and drive success collectively. Through annual meet-ups in North America and India, as well as quarterly events online or in various regions, you'll build strong, cross-border relationships with teammates around the world.
+
+
+
+Ready to become part of the NeuraFlash team? Let's redefine growth and innovation together!
+
+
+We are looking for a Solution Architect (CPQ) to join our amazing Lead-to-Cash team! You'll bring Salesforce Sales Cloud & CPQ project implementations to life by working with our customers to understand their business, identify their requirements, then leading the team through design, development, QA and launch of their solutions. We are building a best-in-class team and this role will have the opportunity to make significant contributions working with the rest of our talented team, exciting customers, and partnering closely with our Salesforce and AI Teams! As the Architect on the project, you will own overall design success and lead the development team in building awesome client solutions.
+
+
+**You'll have the opportunity to:**
+
+
+* Work with our customers to define requirements, propose & deliver solutions related to their Sales processes
+* Support architecture and own configuring best-in-class implementations of CPQ and Sales Cloud.
+* Configure Salesforce Solutions using point and click tools available on the platform eg. Process Builder and Visual Flows
+* Understand and leverage Salesforce Platform to implement scalable solutions
+* Partner with our Artificial Intelligence team to create innovative Salesforce solutions for our customers
+* Coach and mentor your junior team members on best practices to deliver your projects
+* Interface directly with Salesforce to craft new solution perspectives
+* Support our Pre-Sales team with industry perspectives, demos, and deal execution
+* Craft thought leadership pieces that accelerate the NeuraFlash brand within the Sales Transformations space
+* Quickly acquire new technical expertise and understanding of latest Salesforce features and major launches
+
+
+**Requirements:**
+
+
+* 5+ years project experience in a hands-on position
+* 10+ implementations experience of Salesforce CPQ or Sales Cloud
+* 5+ years of experience with Salesforce in a development or configuration capacity
+* Understanding of Sales, Sales Operations, Product, and Business Operations with experience solving Complex Use Cases utilizing the breadth of the Salesforce Platform
+* Hands-on experience on building Salesforce CPQ package elements, Custom Applications, Lightning Experience, Visual Flows, Process Builders, and other Salesforce platform tools.
+* Understanding of Release Management, Application Lifecycle Management, Development Lifecycle and Deployment Best Practices and Governance.
+* Client Facing Experience in the following areas: Pre-Sales Activities, Project Management/Ownership, Discovery and Design, Delivering Solution Options to Customers, Enterprise Application Architecture.
+* Solid understanding of Salesforce Platform and its architecture.
+
+
+**Preferred Skills:**
+
+
+* Experience coaching and mentoring Salesforce talent
+* Attention towards detail – detail oriented
+* Strong team player
+* Great communication skills
+* Keep an open mind and must be flexible to change
+* Any Salesforce Certifications is a Plus, preferably Salesforce CPQ , Service Cloud, Experience Cloud, Sales Cloud or Field Service Consultant.
+
+### **What's it like to be a part of NeuraFlash?**
+
+
+* Remote & In-Person: Whether you work out of our HQ in Massachusetts, one of our regional hubs, our India office, or you're one of over half of our NeuraFlash Family who work remotely, we're focused on keeping everyone connected and unified as one team.
+* Travel: Get ready to pack your bags and hit the road! For certain roles, travel is an exciting part of the job, with an anticipated travel commitment of up to 25%. So, if you have a passion for adventure and don't mind a little jet-setting, this opportunity could be your ticket to exploring new places while making a positive impact on clients.
+* Flexibility: Do you have to take the dog to the vet, pick up the kids from school, or the in-laws from the airport? We know that a perfect 9-5 isn't possible. So you have to jump out to do any of those, no problem! We build a culture of trust and understanding. We value good work not the hours in which you get it done
+* Collaboration: You have a voice here! If you work with a team of smart people like we do, it's a no-brainer to take suggestions and feedback on how to keep NeuraFlash thriving. Our executive team holds town halls & company meetings where they address any suggestions or questions asked, no matter how big or small.
+* Celebrate Often: We take our work seriously, but we don't take ourselves too seriously. Whether it is an arm wrestling contest, costume party, or ugly holiday sweaters our teams love to have fun. And while we work hard, we don't forget to slow down and celebrate the big things and the small things together.
+
+
+*Location: NeuraFlash strives to provide you with the flexibility to work in the location that makes the most sense for your lifestyle. For those that prefer an office setting, this role may be based in any of our hub locations within the United States, and India. If you prefer to work from your home, we can accommodate remote locations anywhere in the United States for our U.S. based employees, anywhere within British Columbia and Ontario for our Canadian employees, and anywhere within Colombia for our Colombian based employees!*","https://www.glassdoor.ca/Overview/W-EI_IE1387240.htm","","","","","","","","","",""
+"indeed","https://ca.indeed.com/viewjob?jk=a867c1ac852f4113","https://jobs.gecareers.com/vernova/global/en/job/GE11GLOBALR3774962EXTERNALENGLOBAL/Senior-Embedded-Firmware-Engineer-C-RTOS-Python?utm_source=indeed&utm_medium=phenom-feeds","Senior Embedded Firmware Engineer (C++ / RTOS / Python)","GE Vernova","Markham, ON, CA","","2024-07-23","","","","",False,"","**Job Description Summary**
+===========================
+
+
+Come bring your energy to change the world  
 
   
 
-**Skills:**  
-
-Ability to demonstrate organizational skills to carry out a variety of tasks.Ability to meet deadlines and organize time effectively. Ability to present data in a variety of document and display formats.Ability to use research methods to identify and verify information.Ability to use social & digital media to effectively communicate or respond to others.  
+Grid Solutions, part of the GE Vernova portfolio of energy businesses, serves customers globally with over 12,000 employees. Grid Solutions provides equipment, systems, and services to bring power reliably and efficiently from the point of generation to end power consumers. We electrify the world with advanced grid technologies and accelerate the energy transition.
+  
 
   
 
-
-
-Participation in work study positions is restricted to undergraduate students who meet program requirements. For information about eligibility criteria and to access the application, please visit https://sfs.yorku.ca/work-study-programs.
-
-**The University welcomes applications from all qualified individuals, including, but not limited to women, persons with disabilities, visible minorities (racialized), Indigenous Peoples and persons of any gender identity and sexual orientation. York University is committed to a positive, supportive and inclusive environment.**  
+GE Vernova, a dynamic accelerator comprised of our Power, Renewable Energy, Digital, and Energy Financial Services businesses, is focused on leading a new era of energy - electrifying the world while simultaneously working to decarbonize it.  
 
   
 
-**York University offers accommodation for applicants with disabilities in its recruitment processes. If you are contacted by York University regarding a job opportunity or testing, please advise if you require accommodation.**  
+If you are ready to make a difference and usher in a new era of energy, come join us.  
 
   
 
-**We are committed to enhancing our environmentally and socially responsible practices for the benefit of all members of the York community. Our long term perspective recognizes our responsibility to be innovators and to continually work as a community to reduce our ecological impact.**  
+We’re Grid Automation, part of the Grid Solutions business and a leader in the protection, control, and automation of the world’s power grids. If you’re looking for a software engineering career that can make a real difference to the world, we’d like to connect.  
 
   
 
-**York University employees must apply to jobs through the Employee Career Portal - YU Hire. If you are a current York University employee and/or are using your rights under a collective agreement to view and/or apply to jobs, you MUST log into YU Hire to access the York University Employee Career Portal.**  
+More sustainable grids require better visibility, faster controls, and advanced automation - challenges addressed through innovative and flexible software solutions. As part of our team, you could:  
 
   
 
-**PLEASE NOTE: Applications must be received by 11:55 pm EST on the posted deadline date, if applicable.**","https://ca.indeed.com/cmp/York-University","https://www.yorku.ca/","4700 Keele Street, Toronto, ON, Toronto, ON, Canada, Ontario"," Education And Schools","5,001 to 10,000","$1B to $5B (USD)","","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/2053eea2768c75e8419669c61e428373","","Rhonda Lenton",""
-"indeed","https://ca.indeed.com/viewjob?jk=de217739ec09dcce","https://cta.cadienttalent.com/index.jsp?SEQ=jobDetails&APPLICATIONNAME=CentreforAddictionandMentalHealthReqExt&POSTING_ID=103204203464&LOCATION_ID=103204203462&source=ContactSources.IJB&specificSource=ContactSources.IJB.SpecificSources.Indeed","Research Analyst - Temerty Centre","Centre for Addiction and Mental Health","Toronto, ON, CA","fulltime, contract","2024-07-20","","","","",False,"","**Job Description**
+* Help develop new software tools and sophisticated control systems to enable next-generation networks
+* Help create a fleet of intelligent edge devices to protect, control, and automate the grid
+* Build control solutions for a microgrid
+* Develop the algorithms and analytics that optimize the electrical grid and enable it to become autonomous
+
+  
+
+What’s in it for you?  
+
+Gain experience across new technologies  
+
+* Design and develop cloud applications, edge computing solutions, and AI analytics, utilizing technologies such as Kubernetes, Kafka, gRPC, Go, and JavaScript
+* Implement microservice architecture and containerization to ensure scalability, reliability, and maintainability of software solutions
+* Participate in the full software development lifecycle, including requirement analysis, design, implementation, testing, and deployment
+* Leverage state-of-the-art DevOps tools and practices, including Jenkins, Jira, and others, to support development and deployment processes
+
+  
+
+Advancement and training opportunities  
+
+* Take advantage of in-house and external training opportunities on new technologies
+* Benefit from buddy, mentoring, and coaching programs
+* Participate in our Affinity Network and be part of a diverse and inclusive community that enriches company culture through community involvement
+
+  
+
+Experience a global culture like no other  
+
+  
+
+* Connect with R&D offices in France, UK, Spain, India, Canada, Brazil, and the US
+* Work with cross-functional team members across the globe
+* Collaborate online, join in-person working sessions, or apply to travel the world on international assignments
+
+  
+
+#GASW  
+
+  
+
+GE Vernova. Change starts here.  
+
+  
+
+In this role you'll be responsible for designing , developing and testing Embedded Software (Firmware), platforms and systems that runs on devices that need to be tailored to the needs of the hardware that it has to run on.
+  
+
+  
+
+As part of a multi-developer firmware team the major responsibilities will include analysis, design, implementation and testing of firmware for Transmission product line. You will report to the Senior Software Manager. #LI-SH1**Job Description**
+===================
+
+**About us:**  
+
+Grid Solutions, a GE Renewable Energy business, serves customers globally with over 12,000 employees. We provide power utilities and industries worldwide with equipment, systems, and services to bring power reliably and efficiently from the point of generation to end power consumers. We are focused on addressing the challenges of the energy transition by enabling the safe and reliable connection of renewable and distributed energy resources to the grid. For more about GE’s Grid Solutions, visit https://www.gegridsolutions.com.
+
+**Essential Responsibilities:**
+
+* Architects, designs and/or programs/develops a small module or a large component, feature, set of features, whole feature area or entire embedded software product. Some areas of expertise may include, but is not limited to, networks, operating systems, cybersecurity, databases, or applications.
+* Identifies scope of the work, provide initial estimate and justify the estimate with facts
+* Engages in technical discussions; participates in technical designs and presents technical ideas through white boarding
+* Designs and implements features or components of feature on request from various programs
+* Works closely with peers and keeps engaging in a fast pace technical design and development team
+* Executes in a fast pace delivery mode and focuses in delivering tasks to meet the product release goal
+* Maintains code quality through best practices, code reviews and unit testing
+* Customer-oriented focus in the root cause analysis of issues during programs execution
+* Seeks and provides feedback on design and development
+* Demonstrates the ability to make informed technology choices after due diligence and impact assessment
+* Articulates the need for scalability and understand the importance of improving quality through testing.
+* Provides guidance to other team members with either planning and execution and/or design architecture
+
+**Required Qualifications:**
+
+* Bachelor’s Degree in Computer Science, Electrical Engineering, or Computer Engineering.
+* Minimum of 8 years of embedded development experience.
+
+**Desired Characteristics:**
+
+* C++ preferably C++17 programming skills and understanding of object oriented design and development
+* Strong grasp of RTOS; VxWorks, embedded Linux fundamentals
+* Good understanding and programming skills of modern languages such as GO and Python
+* Exposure to modern development environments CI/CD, automated software unit-testing
+* Knowledge of microcontrollers; NXP Freescale family, Xilinx SoC’s, Altera SoC's
+
+**Additional Information**
+==========================
+
+**Relocation Assistance Provided:** No","https://ca.indeed.com/cmp/GE-Vernova-1","https://jobs.gecareers.com/vernova/","Cambridge, MA","","10,000+","$25M to $100M (USD)","GE Vernova is a purpose-built company, focused on our mission to electrify and decarbonize the world.","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/174fad2936619d1c4e5082dac48f584f","https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/1960x400/1fbda91d27e16a8e4d49c1de0133d29a","Scott Strazik","https://d2q79iu7y748jz.cloudfront.net/s/_ceophoto/512x512/9fc066c796c8cd26aed44c34a2fa723b"
+"indeed","https://ca.indeed.com/viewjob?jk=ba1b132b6340ef76","https://click.appcast.io/track/k56c6nu-org?cs=hqw","Delivery Consultant Manager - Automation","IBM","Markham, ON, CA","","2024-07-23","","","","",False,"","Introduction  
+
+Joining the IBM Technology Expert Labs teams means you'll have a career delivering world-class  
+
+services for our clients. As the ultimate expert in IBM products, you'll bring together all the  
+
+necessary technology and services to help customers solve their most challenging problems.  
+
+Working in IBM Technology Expert Labs means accelerating the time to value confidently and  
+
+ensuring speed and insight while our clients focus on what they do best running and growing their  
+
+business.  
+
+Excellent onboarding and industry-leading learning culture will set you up for a positive impact,  
+
+while advancing your career. Our culture is collaborative and experiential. As part of a team, you will  
+
+be surrounded by bright minds and keen co-creators—always willing to help and be helped—as you  
+
+apply passion to work that will positively impact the world around us.  
+
+  
+
+Your Role and Responsibilities  
+
+As a Delivery Consultants Manager, you will apply your strong foundation of technology expertise to  
+
+hire, coach, and cultivate high performing teams made up of diverse, exceptional services delivery  
+
+professionals. You will develop a high performing team who engages with clients to deliver projects  
+
+for IBM Technology while fostering a learning culture where your team develops and demonstrates  
+
+their skills. In this role you will coach and lead from the front as s a trusted, empathetic leader  
+
+committed to your team's and client's success. As a leader of this fast pace, client focused team,  
+
+you'll collaborate across IBM to optimize services engagements and trailblaze new solutions that  
+
+address real business challenges.  
+
+We're passionate about success. If this role is right for you, then your achievements mean your  
+
+career is flourishing, your teams are succeeding, and our clients are thriving. To help ensure this  
+
+win-win outcome, a 'day-in-the life' of this role may include, but not be limited to…  
+
+* Building Exceptional Client-Facing Team: Hiring, nurturing, and developing a technical
 
 
-The Temerty Centre for Therapeutic Brain Intervention is seeking a full-time, contract (12 months) Research Analyst. The incumbent will report to the Manager and join a productive team in one of the world’s leading centres in treatment, research and training related to brain stimulation therapies. In addition to clinical treatment trials, the team also specializes in neurophysiology studies aimed at providing novel insights into brain function in individuals with psychiatric disorders.
+client-facing team of exceptional delivery professionals in IBM Technology.  
+
+* Accelerating Adoption of IBM Technology: Collaborating with your Delivery Consultants, the
 
 
-Duties primarily include but are not limited to the administration of brain stimulation protocols and neurophysiological paradigms, which include Transcranial Magnetic stimulation (TMS), Paired associative stimulation (PAS), Electroencephalogram (EEG), and Electromyography (EMG) and working with neuronavigation software and protocols. In addition, the incumbent will provide support with research procedures to the treatment team in a number of randomized controlled trials comparing the efficacy and safety of convulsive therapies. Additional duties include clinical and cognitive assessments of enrolled participants, independent participant recruitment, education and dissemination of information about studies to patients, families and mental health professionals, assessment scoring and data entry, scheduling of study visits, escorting participants to study-related appointments, transporting samples, maintaining subject records and study documents, assisting with REB and other regulatory submissions. You will support a workplace that embraces diversity, encourages teamwork and complies with all the applicable regulatory and legislative requirements. This position is located at 1025 Queen Street West but will require travel between the College/ Ursula Franklin and Queen Street sites. The incumbent must be adaptable and willing to work flexible hours in order to reasonably accommodate participants’ schedules.
+IBM Account team, clients, and partners to accelerate delivery and adoption of IBM  
+
+Technology.  
+
+* Building Client Relationships: Creating and maintaining enduring, trusted relationships at
 
 
-**Job Requirements**
+technical levels within clients (including CIO's, CTO's, Developers, Data Scientists,  
+
+Architects) and establishing IBM as an essential partner.  
+
+* Team Coaching for Success: Coaching your team, with clarity and conviction, to ensure they
 
 
-The successful candidate will have a Bachelor’s Degree in a health related field combined with one (1) year of relevant experience. Experience working or volunteering in an academic laboratory setting and established skills in neurophysiological procedures related to brain stimulation are required. Previous experience in the administration of neuropsychological assessments, structured diagnostic interviewing, and clinical rating scales is an asset. Excellent organizational skills and the ability to multitask are essential. Preference will be given to candidates with background and experience in working with individuals who have mental health and/or substance use challenges. Confidence in all components of Microsoft Office and Internet search engines is required. You must possess excellent written and verbal communication skills and have the ability to work effectively with a diverse population and within a dynamic team environment. Bilingualism (French/English) or proficiency in a second language would be an asset.
+fully understand how to do their jobs successfully and achieve their KPI including utilization,  
 
-**Vaccines (COVID-19 and others) are a requirement of the job unless you have an exemption on a medical ground pursuant to the Ontario Human Rights Code.**","https://ca.indeed.com/cmp/Centre-For-Addiction-and-Mental-Health","http://www.camh.ca/en/hospital/Pages/home.aspx","Toronto"," Health Care","1,001 to 5,000","$100M to $500M (USD)","","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/f5a2c39cdbed85da6da711946d73188b","","",""
-"indeed","https://ca.indeed.com/viewjob?jk=f5569d9f63f06e10","http://ca.indeed.com/job/market-research-analyst-full-time-windsor-f5569d9f63f06e10","Market Research Analyst (Full Time) Windsor, ON","Big Time Tickets Inc","Toronto, ON, CA","temporary, fulltime","2024-04-10","","","","",True,"","Relocation assistance will be available.
+customer satisfaction and quality standards.  
 
-**Company description**
+* Profit and Loss Management: Evaluating and managing profit and loss for your assigned
 
-Big Time Tickets Inc. is devoted to being one of the leading providers of concert and live event tickets for the modern-day buyer. We serve a wide variety of customers daily, across the most trusted and secure ticket exchanges in the nation.
 
-**Job description**
+resources.  
 
-Big Time Tickets Inc. is an entrepreneurial, fast-growing, tech start-up devoted to being one of the leading providers of concert and live event tickets for the modern-day buyer. We serve a wide variety of customers daily, across the most trusted and secure ticket exchanges in the nation. We are currently seeking a **Market Research Analyst** to join our growing organization. This individual will maintain knowledge of popular events (e.g., Music, Sports, Broadway, Comedy), obtain and analyze market sales data and provide corresponding buying recommendations.
+* Growth Mindset Traits in Problem-Solving: Demonstrating growth mindset, courage,
 
-**Role & Responsibilities**
 
-**Research**
+curiosity, and leadership in solving problems.
+NAIWD24
 
-· Analyze market trends in both primary and secondary ticketing markets.
+  
 
-· Monitor current as well as future events for purchase using various data resources.
+Required Technical and Professional Expertise  
 
-· Stay current and up to date in live entertainment space.
+* Experienced Technical Leader: Seasoned technical leadership with the associated credibility, having proven experience of managing large diverse services delivery teams, with a specific focus on scaling these teams through effective performance management, process improvement and delivering on team KPI targets. It is the proven ability to translate tactical imperatives into operational discipline to achieve defined outcomes, while driving the adoption of complex, enterprise-grade technology solutions.
+* Coaching Excellence and Culture Growth: Demonstrable mastery of deal and situational
 
-· Understand and analyze the layout of venues across North America.
 
-· Use census data, social media data, google trends, etc to develop purchasing models.
+coaching, whilst fostering a high performing, growth-minded and candid culture.  
 
-**Analysis**
+* Practical Skills in Technology Areas: Deep practical and applied skills in one of the following
 
-· Compute, collect, organize, and analyze data to inform purchasing decisions.
 
-· Closely analyze various markets for potential buying opportunities.
+areas (with competent understanding across a broad selection of products within the  
 
-· Develop an understanding of market pricing and be able to identify price inefficiencies.
+respective portfolio’s and importantly, their enterprise inter-connectivity): Cloud, Data and  
 
-· Develop an understanding of province/state, and city demographics throughout North America to aide in buying recommendations.
+AI, Automation, Integration or Security.  
 
-**Qualifications**
+* Financial Oversight and Management: Experience of oversight and management of profit
 
-The candidate must possess a minimum of a Bachelor’s Degree in Business, Economics or Finance. They must have prior experience/knowledge in the sports and/or entertainment industry. You have an interest in popular culture and are an organized individual and analytical thinker. The successful candidate will be proficient in MS Word, Excel, and/or Google Suite. You are someone that works well in ambiguity and has an entrepreneurial spirit. You thrive on opportunity and are highly motivated by being rewarded based on your performance. The successful candidate will not be afraid to “roll up their sleeves” and work outside typical hours as needed. You have strong communication and interpersonal skills and work well within a team environment.
 
-Work remotely
+and loss  
 
-* No
+  
 
-Job Types: Full-time, Fixed term contract  
-Contract length: 12 months
+Preferred Technical and Professional Expertise  
 
-Pay: $100,000.00-$110,000.00 per year
+* Automation Technologies: Experience with one more of the following Automation
+
+
+technologies: MQ, API Connect, App Connect Enterprise, Cloud Pak for Automation, Cloud  
+
+Pak for Integration, Tivoli Monitoring, Instana, Netcool, Watson AI Ops, Turbonomic or the  
+
+equivalent enterprise solution.  
+
+* Multi-Cloud Platforms: Working knowledge of AWS, Azure and VMware Virtualization.
+* Programming Skills: Working knowledge and skills working with Java, Shell scripting,
+
+
+python, Kubernetes, Containers, Perl)  
+
+About Business UnitIBM has a global presence, operating in more than 175 countries with a broad-based geographic distribution of revenue. The company’s Global Markets organization is a strategic sales business unit that manages IBM’s global footprint, working closely with dedicated country-based operating units to serve clients locally. These country teams have client relationship managers who lead integrated teams of consultants, solution specialists and delivery professionals to enable clients’ growth and innovation. By complementing local expertise with global experience and digital capabilities, IBM builds deep and broad-based client relationships. This local management focus fosters speed in supporting clients, addressing new markets and making investments in emerging opportunities. Additionally, the Global Markets organization serves clients with expertise in their industry as well as through the products and services that IBM and partners supply. IBM is also expanding its reach to new and existing clients through digital marketplaces.  
+
+  
+
+Your Life @ IBMIn a world where technology never stands still, we understand that, dedication to our clients success, innovation that matters, and trust and personal responsibility in all our relationships, lives in what we do as IBMers as we strive to be the catalyst that makes the world work better.
+Being an IBMer means you’ll be able to learn and develop yourself and your career, you’ll be encouraged to be courageous and experiment everyday, all whilst having continuous trust and support in an environment where everyone can thrive whatever their personal or professional background.
+
+
+Our IBMers are growth minded, always staying curious, open to feedback and learning new information and skills to constantly transform themselves and our company. They are trusted to provide on-going feedback to help other IBMers grow, as well as collaborate with colleagues keeping in mind a team focused approach to include different perspectives to drive exceptional outcomes for our customers. The courage our IBMers have to make critical decisions everyday is essential to IBM becoming the catalyst for progress, always embracing challenges with resources they have to hand, a can-do attitude and always striving for an outcome focused approach within everything that they do.
+
+
+Are you ready to be an IBMer?
+
+  
+
+About IBMIBM's greatest invention is the IBMer. We believe that through the application of intelligence, reason and science, we can improve business, society and the human condition, bringing the power of an open hybrid cloud and AI strategy to life for our clients and partners around the world.  
+
+  
+
+Restlessly reinventing since 1911, we are not only one of the largest corporate organizations in the world, we’re also one of the biggest technology and consulting employers, with many of the Fortune 50 companies relying on the IBM Cloud to run their business.
+  
+
+  
+
+At IBM, we pride ourselves on being an early adopter of artificial intelligence, quantum computing and blockchain. Now it’s time for you to join us on our journey to being a responsible technology innovator and a force for good in the world.  
+
+  
+
+Location StatementMust have the ability to work in Canada without sponsorship.  
+
+  
+
+This role will involve working with technology that is covered by Export Regulations sanctions. If you are a Foreign National from any of the following US sanctioned countries (Cuba, Iran, North Korea, Syria, and the Crimea, Luhansk, Donetsk, Kherson, and Zaporizhia regions of Ukraine) on a work permit, you are not eligible for employment in this position.  
+
+  
+
+Being You @ IBMIBM is committed to creating a diverse environment and is proud to be an equal-opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, gender, gender identity or expression, sexual orientation, national origin, caste, genetics, pregnancy, disability, neurodivergence, age, veteran status, or other characteristics. IBM is also committed to compliance with all fair employment practices regarding citizenship and immigration status.","https://ca.indeed.com/cmp/IBM","https://www.ibm.com","Armonk, NY","","10,000+","more than $10B (USD)","","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/6c2ace8b83365eaf7a7cd5fe87834c11","https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/1960x400/8b40026ad59a501ad829296bf40daaa4","Arvind Krishna","https://d2q79iu7y748jz.cloudfront.net/s/_ceophoto/512x512/5a6b91cbb0bf3c4015d2cb936626c30e"
+"indeed","https://ca.indeed.com/viewjob?jk=9784497b6483cb3d","http://ca.indeed.com/job/senior-devops-engineer-9784497b6483cb3d","Senior DevOps Engineer","FundMore.ai","Toronto, ON, CA","fulltime","2024-07-22","","","","",True,"HR@fundmore.ai","AWS Cloud Infrastructure, Serverless, Security, Compliance, and Observability
+
+**Position Overview:**
+
+FundMore is seeking a talented and dedicated DevOps Engineer to join our dynamic team. The ideal candidate will play a crucial role in managing our AWS-based cloud infrastructure, enhancing our security and compliance measures, continuously improving our observability stack and monitoring practices, and collaborating with partners and customers. This position requires a deep understanding of AWS services, serverless technologies, security best practices, and modern observability tools, as well as experience with NodeJS, NestJS, and PostgreSQL.
+
+**Key Responsibilities:**
+
+* **AWS Cloud Infrastructure Management:**
+* Design, implement, and manage scalable, secure AWS cloud infrastructure.
+* Utilize AWS services such as EC2, S3, RDS, Lambda, API Gateway, CloudFront, and Cognito to build robust, serverless solutions.
+* Ensure high availability, fault tolerance, and disaster recovery capabilities of AWS systems.
+* Automate infrastructure provisioning and management using Serverless Framework and AWS CloudFormation.
+* **System Architecture:**
+* Develop and maintain cloud applications using AWS Lambda and other serverless services.
+* Optimize cloud deployments for performance, cost, and scalability.
+* Implement best practices for cloud based, serverless microservice application development and deployment.
+* **Security and Compliance:**
+* Implement and enforce security best practices and compliance standards (SOC 2, GDPR, ISO).
+* Manage IAM roles and policies to ensure least privilege access.
+* Conduct regular security audits, vulnerability assessments, and penetration testing.
+* Maintain comprehensive documentation of security and compliance measures.
+* **Observability and Monitoring:**
+* Develop and enhance the observability stack, including logging, monitoring, and alerting systems.
+* Implement and manage monitoring tools such as AWS CloudWatch, GuardDuty, Security Hub, Prometheus, and Grafana.
+* Ensure comprehensive visibility into system performance, availability, and security.
+* Set up automated alerts for key metrics and incidents.
+* **CI/CD Pipeline Management:**
+* Maintain and optimize CI/CD pipelines using tools like AWS CodePipeline, CodeBuild, and GitHub Actions.
+* Ensure seamless integration and deployment processes with automated testing and validation.
+* **Collaboration and Communication:**
+* Work closely with development teams to integrate security and observability into the development lifecycle (DevSecOps).
+* Conduct regular training sessions on security practices, compliance requirements, and observability tools.
+* Participate in daily scrums, sprint planning, and retrospectives to align on project goals and deliverables.
+* **Partner and Customer Integration Support:**
+* Collaborate with partners to support and implement integrations with FundMore's platform.
+* Work with customers' internal IT teams to ensure smooth integration and operation of FundMore’s solutions.
+* Assist the Customer Success team in answering technical operations questions and resolving issues related to infrastructure, security, and performance.
+
+**Qualifications:**
+
+* Bachelor’s degree in Computer Science, Information Technology, or related field.
+* 5+ years of experience in DevOps roles, with a focus on AWS cloud infrastructure, serverless technologies, security, and observability.
+* Proficiency in AWS services, including Lambda, API Gateway, CloudFront, S3, RDS, and IAM.
+* Experience with automation and configuration management tools like Serverless Framework, AWS CloudFormation, Terraform, or Ansible.
+* Strong understanding of network and data security principles, including encryption, IAM, and security monitoring.
+* Familiarity with compliance frameworks such as SOC 2, GDPR, and ISO.
+* Proven experience with observability tools such as AWS CloudWatch, GuardDuty, Prometheus, and Grafana.
+* Experience with NodeJS, NestJS, and PostgreSQL.
+* Excellent problem-solving skills and the ability to perform under pressure.
+* Strong communication and collaboration skills.
+
+**Preferred Skills:**
+
+* AWS certifications (e.g., AWS Certified Solutions Architect, AWS Certified DevOps Engineer).
+* Knowledge of microservices architecture.
+* Experience with modern CI/CD tools and practices.
+* Familiarity with agile development methodologies and tools like Github and Jira.
+
+**Why FundMore:**
+
+* Competitive salary and benefits package.
+* Opportunity to work with cutting-edge technologies in a dynamic and innovative environment.
+* Collaborative and inclusive company culture.
+* Continuous learning and professional development opportunities.
+
+**How to Apply:**
+
+Interested candidates are invited to submit their resume and cover letter detailing their relevant experience and interest in the position to HR@fundmore.ai.
+
+FundMore is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
+
+Job Type: Full-time
 
 Benefits:
 
-* Casual dress
-* Company events
 * Dental care
 * Extended health care
-* On-site gym
-* On-site parking
+* Paid time off
 
-Schedule:
+Experience:
 
-* Monday to Friday
-* Weekends as needed
+* DevOps: 3 years (required)
 
-Supplemental pay types:
+Work Location: Hybrid remote in Toronto, ON M5J 2P1
 
-* Bonus pay
+Application deadline: 2024-08-01  
+Expected start date: 2024-09-01","https://ca.indeed.com/cmp/Fundmore.ai-1","","","","","","","","","",""
+"indeed","https://ca.indeed.com/viewjob?jk=4f5071a99b1be812","https://grnh.se/e1754ee94us","Salesforce Solution Architect, CPQ","NeuraFlash","Toronto, ON, CA","","2024-07-22","","","","",True,"","### **About NeuraFlash:**
 
-Ability to commute/relocate:
 
-* Toronto, ON: reliably commute or plan to relocate before starting work (required)
 
-Education:
+We are a leading AI and Consulting Partner of Amazon & Salesforce obsessed with helping our customers transform their contact centers with AI Powered Experiences. Our expertise spans across the Amazon ecosystem with Amazon Connect, Lex & Contact Lens and Salesforce ecosystem with Service Cloud Voice, Einstein Bots and Digital Channels, Service Cloud, Field Service, CPQ, MuleSoft, and Einstein Analytics. We are experts in building experiences grounded in data that transform and optimize the employee and customer journey.
 
-* Bachelor's Degree (required)
 
-Work Location: In person","https://ca.indeed.com/cmp/Big-Time-Tickets-Inc","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3978946092","","Technician (Research - Synthetic Biology and Genomics)","The University of Manchester","Manchester, Ontario, Canada","","2024-07-21","","","","","","","","https://uk.linkedin.com/school/university-of-manchester/","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3981757444","","Physician Assistant","Gotham Enterprises Ltd","Niagara Falls, NY","","2024-07-21","","","","","","","","https://www.linkedin.com/company/gothamenterprisesltd","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3927173108","","Quantitative Analyst II","Affirm","Hamilton, Ontario, Canada","","2024-07-21","","","","","","","","https://www.linkedin.com/company/affirm","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3970280856","","Research Assistant II Trauma and Neurosurgery Research","St. Michael's Hospital","Toronto, Ontario, Canada","","2024-07-20","","","","","","","","https://ca.linkedin.com/company/st.-michael's-hospital","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3979459046","","Research Analyst - Temerty Centre","CAMH","Toronto, Ontario, Canada","","2024-07-20","","","","","","","","https://ca.linkedin.com/company/camh","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3944585082","","Instructors, Data Analytics","GUS Canada Colleges","Toronto, Ontario, Canada","","2024-07-20","","","","","","","","https://ca.linkedin.com/company/gus-canada-colleges","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3943508799","","Instructors, Data Analytics","Toronto School of Management","Toronto, Ontario, Canada","","2024-07-20","","","","","","","","https://ca.linkedin.com/school/toronto-school-of-management/","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3971250468","","Analyste d’études / Study Analyst, Real World Solutions","IQVIA","Mississauga, Ontario, Canada","","2024-07-20","","","","","","","","https://www.linkedin.com/company/iqvia","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3978292730","","Data Analyst, Commercial Finance","Canopy Growth Corporation","Toronto, Ontario, Canada","","2024-07-20","","","","","","","","https://ca.linkedin.com/company/canopy-growth-corporation","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3982556536","","Quantitative Research Analyst","Validus Risk Management","Toronto, Ontario, Canada","","","","","","","","","","https://uk.linkedin.com/company/validus-risk-management","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3981932254","","Marketing Assistant","The Legacy Marketing","Ajax, Ontario, Canada","","","","","","","","","","https://ca.linkedin.com/company/the-legacy-marketing","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3982383667","","780 - HAGERMAN HOUSE CC - Assistant Teacher","Family Day Care Services","Markham, Ontario, Canada","","","","","","","","","","https://ca.linkedin.com/company/family-day-care-services","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3962430993","","Admin Assistant - Physician (Clinical Services) MHS","St. Michael's Hospital","Toronto, Ontario, Canada","","","","","","","","","","https://ca.linkedin.com/company/st.-michael's-hospital","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3980024655","","Junior Business Analyst - Data Analytics experience","Randstad Canada","Toronto, Ontario, Canada","","","","","","","","","","https://ca.linkedin.com/company/randstadcanada","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3981994630","","Data Analyst (0 Experience Required)","Peroptyx","Toronto, Ontario, Canada","","","","","","","","","","https://ie.linkedin.com/company/peroptyx","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3980364337","","Lead Data Scientist, Personalization Analytics","Movable Ink","Toronto, Ontario, Canada","","","","","","","","","","https://www.linkedin.com/company/movable-ink","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3980037970","","Senior Data Analyst","Robertson & Company Ltd.","Toronto, Ontario, Canada","","","","","","","","","","https://ca.linkedin.com/company/robertson-&-company-ltd-","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3942566388","","Data Platform Engineer Analyst","Sanofi","Toronto, Ontario, Canada","","","","","","","","","","https://fr.linkedin.com/company/sanofi","","","","","","","","","",""
-"linkedin","https://www.linkedin.com/jobs/view/3982181312","","Executive Assistant","Operatic Agency","Hamilton, Ontario, Canada","","","","","","","","","","https://ca.linkedin.com/company/operaticagency","","","","","","","","","",""
-"zip_recruiter","https://www.ziprecruiter.com/jobs//j?lvk=NTulsgbVobtoxDTGGJvXoQ","","Administrative Assistant","CDI College","Brampton, ON, Canada","","2024-07-22","yearly",38000.0,40000.0,"CAD","","","Specifically, the Administrative **Assistant** will be responsible for: \\* Providing administrative support to ensure the effective and efficient maintenance of campus operations \\* Ensuring campus ...","","","","","","","","","","",""
-"zip_recruiter","https://www.ziprecruiter.com/jobs//j?lvk=OfXRD0oG14RNWvyYHVXXHg","","Administrative Assistant - Retirement","Schlegel Villages Inc.","Guelph, ON, Canada","","2024-07-22","","","","","","","**The Village of Riverside Glen** located in Guelph**, Ontario** has an exciting opportunity for a **Part Time** **Administrative Assistant (35 hours bi-weekly)** to join their team.
+### **What sets NeuraFlash apart?**
 
-Evening shifts and every other weekend 9am- 5pm 
 
-You can be YOU while being part of our FAMILY.
 
-**How Schlegel Villages supports our Team Members:**
+Join NeuraFlash, where growth is not just a goal, but a way of life! Since our inception in 2016, we've been on a rocket ship, soaring to an average of 35%+ growth year over year. This rapid expansion has unlocked a world of exciting career opportunities for our team.
 
-* Competitive salary, and benefits;
-* Significant opportunities for Growth and Development: Our Leaders come from within;
-* Ongoing Team Member Appreciation incentives and generous rewards and recognition;
-* Extended Health Benefits & Retirement Savings;
-* Individualized Assistance for Team Member Education and Development;
-* Loans and Scholarships to help our team members realize their greatest potential;
-* Financial Hardship Support Program: Wilfred Schlegel Hope Fund;
-* A Unique Family Culture: Every Person in Every Village is a branch of our Family Tree.
 
-**To be successful as the new Administrative Assistant, you will:**
 
-* Have an office administration certificate or equivalent experience
-* Demonstrate exceptional customer service and communication skills
-* Be proficient in Microsoft Office 365 and other computer programs
-* Demonstrate thorough attention to detail and the ability to manage conflicting priorities
-* Be excited by our objectives, our Village philosophy and the family values that shape all aspects of life in a Schlegel Village
-* Be the first point of contact for many of our team, residents, families and visitor.
-* Display a caring and respectful attitude toward our residents, families, and team members
+Imagine stepping into the heart of innovation, working with cutting-edge technologies like Salesforce, GenAI, and Amazon. Here, you won't just keep pace with the industry; you'll set it!
 
-**It would be an asset if you have:**
 
-* Previous experience working in the context of a Long-Term Care or Retirement Home
 
-**As our new Administrative Assistant/ Scheduling Coordinator joining our Team you will:**
+But growth isn't just about the company; it's about you. At NeuraFlash, we believe in endless learning. Our technical boot camps are your gateway to mastering new skills and technologies. Whether you're diving into GenAI or conquering Service Cloud Voice, we've got your back.
 
-Create exceptional customer experiences for incoming queries, managing office and village supplies, creating documents for fellow team members, and supporting other members of the administrative team.
 
-Foster exemplary relationships with residents, their families and the Village team and support the efforts of the Village to holistic care to our residents.
 
-Create exceptional customer experiences while acting as the first point of contact for team member questions about schedules, call-ins and open shifts.
+Our success is rooted in the satisfaction of our customers, and our exceptional CSAT score reflects that. Join our team, and you'll play a pivotal role in leading these impactful initiatives, contributing to meaningful change.
 
-Support and embrace our resident-centred social culture and be proud to deliver the highest quality of service to our residents, visitors, and team members through comprehensive and effective administrative support.","","","","","","","","","","",""
-"zip_recruiter","https://www.ziprecruiter.com/jobs//j?lvk=nRPLO3cBorvlykm4QqIP_g","","Research Coordinator","Hamilton Health Sciences","Hamilton, ON, Canada","","2024-07-20","","","","","","","The **Research** Coordinator is an internal team leader responsible for the central coordination of one or more multicenter **research** studies. The coordinator must have knowledge of clinical trial ...","","","","","","","","","","",""
-"zip_recruiter","https://www.ziprecruiter.com/jobs//j?lvk=Q4zLiGtTR8a3nlQxKaCdIA","","Director, Human Resources Research & Advisory Services (HR Technology & AI)","McLean & Company","Toronto, ON, Canada","","2024-07-20","","","","","","","Lead the scoping and facilitation of workshops/custom advisory engagements to **assist** existing ... Experience and familiarity with formal **research** methods. \\* Experience working with large, global ...","","","","","","","","","","",""
+
+
+We are committed to nurturing positive working relationships, enabling us to harness the full potential of our team and drive success collectively. Through annual meet-ups in North America and India, as well as quarterly events online or in various regions, you'll build strong, cross-border relationships with teammates around the world.
+
+
+
+Ready to become part of the NeuraFlash team? Let's redefine growth and innovation together!
+
+
+We are looking for a Solution Architect (CPQ) to join our amazing Lead-to-Cash team! You'll bring Salesforce Sales Cloud & CPQ project implementations to life by working with our customers to understand their business, identify their requirements, then leading the team through design, development, QA and launch of their solutions. We are building a best-in-class team and this role will have the opportunity to make significant contributions working with the rest of our talented team, exciting customers, and partnering closely with our Salesforce and AI Teams! As the Architect on the project, you will own overall design success and lead the development team in building awesome client solutions.
+
+
+**You'll have the opportunity to:**
+
+
+* Work with our customers to define requirements, propose & deliver solutions related to their Sales processes
+* Support architecture and own configuring best-in-class implementations of CPQ and Sales Cloud.
+* Configure Salesforce Solutions using point and click tools available on the platform eg. Process Builder and Visual Flows
+* Understand and leverage Salesforce Platform to implement scalable solutions
+* Partner with our Artificial Intelligence team to create innovative Salesforce solutions for our customers
+* Coach and mentor your junior team members on best practices to deliver your projects
+* Interface directly with Salesforce to craft new solution perspectives
+* Support our Pre-Sales team with industry perspectives, demos, and deal execution
+* Craft thought leadership pieces that accelerate the NeuraFlash brand within the Sales Transformations space
+* Quickly acquire new technical expertise and understanding of latest Salesforce features and major launches
+
+
+**Requirements:**
+
+
+* 5+ years project experience in a hands-on position
+* 10+ implementations experience of Salesforce CPQ or Sales Cloud
+* 5+ years of experience with Salesforce in a development or configuration capacity
+* Understanding of Sales, Sales Operations, Product, and Business Operations with experience solving Complex Use Cases utilizing the breadth of the Salesforce Platform
+* Hands-on experience on building Salesforce CPQ package elements, Custom Applications, Lightning Experience, Visual Flows, Process Builders, and other Salesforce platform tools.
+* Understanding of Release Management, Application Lifecycle Management, Development Lifecycle and Deployment Best Practices and Governance.
+* Client Facing Experience in the following areas: Pre-Sales Activities, Project Management/Ownership, Discovery and Design, Delivering Solution Options to Customers, Enterprise Application Architecture.
+* Solid understanding of Salesforce Platform and its architecture.
+
+
+**Preferred Skills:**
+
+
+* Experience coaching and mentoring Salesforce talent
+* Attention towards detail – detail oriented
+* Strong team player
+* Great communication skills
+* Keep an open mind and must be flexible to change
+* Any Salesforce Certifications is a Plus, preferably Salesforce CPQ , Service Cloud, Experience Cloud, Sales Cloud or Field Service Consultant.
+
+### **What's it like to be a part of NeuraFlash?**
+
+
+* Remote & In-Person: Whether you work out of our HQ in Massachusetts, one of our regional hubs, our India office, or you're one of over half of our NeuraFlash Family who work remotely, we're focused on keeping everyone connected and unified as one team.
+* Travel: Get ready to pack your bags and hit the road! For certain roles, travel is an exciting part of the job, with an anticipated travel commitment of up to 25%. So, if you have a passion for adventure and don't mind a little jet-setting, this opportunity could be your ticket to exploring new places while making a positive impact on clients.
+* Flexibility: Do you have to take the dog to the vet, pick up the kids from school, or the in-laws from the airport? We know that a perfect 9-5 isn't possible. So you have to jump out to do any of those, no problem! We build a culture of trust and understanding. We value good work not the hours in which you get it done
+* Collaboration: You have a voice here! If you work with a team of smart people like we do, it's a no-brainer to take suggestions and feedback on how to keep NeuraFlash thriving. Our executive team holds town halls & company meetings where they address any suggestions or questions asked, no matter how big or small.
+* Celebrate Often: We take our work seriously, but we don't take ourselves too seriously. Whether it is an arm wrestling contest, costume party, or ugly holiday sweaters our teams love to have fun. And while we work hard, we don't forget to slow down and celebrate the big things and the small things together.
+
+
+*Location: NeuraFlash strives to provide you with the flexibility to work in the location that makes the most sense for your lifestyle. For those that prefer an office setting, this role may be based in any of our hub locations within the United States, and India. If you prefer to work from your home, we can accommodate remote locations anywhere in the United States for our U.S. based employees, anywhere within British Columbia and Ontario for our Canadian employees, and anywhere within Colombia for our Colombian based employees!*","https://ca.indeed.com/cmp/Neuraflash-2","http://www.neuraflash.com","Boston","","2 to 10","less than $1M (USD)","","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/20938fe66594f8980bdc7a84c6287d77","","Brett Chisholm",""
+"indeed","https://ca.indeed.com/viewjob?jk=2a61fef8b49201bb","https://accenture.com/ca-en/careers/jobdetails?id=R00223545_en","SAP PP and QM Functional Consulting Manager","Accenture","Toronto, ON, CA","fulltime","2024-07-22","","","","",False,"","ARE YOU READY to step up and take your technology expertise to the next level?  
+
+There is never a typical day at Accenture, but that’s why we love it here! This is an extraordinary chance to create a rewarding career at Accenture Technology. Working in a digitally driven, innovation-led environment where you can help clients shift to the New using leading-edge technologies on some of the coolest projects you can imagine.
+
+
+We are:  
+
+Accenture’s SAP practice, and we bring the New to life using design thinking, agile development methodologies, and the latest smart tech like IoT, automation, and AI. We even built myConcerto, a mix of SAP and Accenture that helps lead our clients to big wins. Ready to learn as much as you can? We train our people on ""new"" SAP like SAP Leonardo, S/4HANA and Cloud, and we offer classes and support through our 50,000+ member community. It’s also nice to know our hard work doesn’t go unrecognized. We’ve got over 70 SAP awards—more than any other partner—and we’re the leading business partner for SAP SuccessFactors, SAP Ariba, SAP Hybris, SAP FieldGlass, SAP Concur, and more. Visit us here to find out more about Accenture's SAP practice.
+
+
+Project Role Description:  
+
+Design business processes, including characteristics and key performance indicators (KPIs), to meet process and functional requirements. Work closely with the Application Architect to create the process blueprint and establish business process requirements to drive out application requirements and metrics. Role includes implementing, customizing, and maintaining SAP solutions in the areas of Production Planning and Quality Management. Work involves close interactions with clients to understand their business requirements, translate them into functional specifications, and leverage your expertise to configure and optimize SAP PP/QM modules.
+
+
+Key Responsibilities:  
+
+* Blueprint, Design, Build of SAP S4 PP & QM environment to meet business process and application requirements. Provide Solutioning to specific client requirements
+* Should be able to drive discussion with the client and conduct workshops
+* Should be able to drive SAP PP & QM project deliverables and liaison with partner teams
+* Collaborate with stakeholders to gather and analyze business requirements related to Production Planning and Quality Management.
+* Play the role of stream lead for individual SAP PP & QM functionalities and establishing business processes
+* Implement and deploy SAP solutions, including integration with other SAP modules and external systems.
+* Conduct system testing, assist in user acceptance testing (UAT), and provide post-go-live support.
+* Develop and maintain technical documentation, process flow diagrams, and training materials.
+* Provide guidance and support to end-users on SAP PP/QM functionality, troubleshooting issues as they arise.
+* Stay updated with SAP releases, new features, and industry trends to recommend and implement continuous improvements.
+* Collaborate with cross-functional teams, including SAP developers, business analysts, and project managers, to deliver high-quality solutions.
+
+  
+
+Here’s what you need:  
+
+* Minimum of 7 years experience in end to end SAP PP and QM implementation as well as experience integrating with other SAP modules.
+* Minimum of 2 years experience with S/4 Hana
+* Minimum of 1 year experience managing teams in a Global Delivery module
+* Bachelor's degree or equivalent
+* Ability to act as a Functional Solution Architect within the functional area, providing high-level design expertise.
+* Extensive experience in SAP S/4 transformations and a track record of successful project implementations.
+* Proven capability in defining functional roadmaps and strategies for clients.
+* Experience in leading business process reengineering efforts to optimize finance-related workflows and enhance process efficiency.
+* Ability to collaborate with stakeholders at various levels, including C-suite executives, to present functional strategies and gain buy-in.
+* English is required for this position as this role will regularly interact with stakeholders across
+
+
+Canada, US and other countries across our Global footprint where English is the common  
+
+language. Due to the significant high volume of interactions with these English-speaking  
+
+stakeholders, which is inherent to this position, it is not possible to reorganize the company's  
+
+activities to avoid this requirement
+Bonus points if:  
+
+* You are fluent in French
+* You’ve got external consulting experience
+* You know how SAP’s business development process works and you can help clients understand how SAP will help their company do more
+
+#LI-NA  
+
+#LI-MP","https://ca.indeed.com/cmp/Accenture","https://www.accenture.com","Dublin, Dublin","","10,000+","more than $10B (USD)","Our 721,000 people deliver on the promise of technology and human ingenuity every day, serving clients in more than 120 countries. We embrace the power of change to create value and shared success.","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/e1bd47363c07b64a9578dbf71edbf4e4","https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/1960x400/f7be8a6231fd0ad5ccfe0d58b57e6ac3","Julie Sweet","https://d2q79iu7y748jz.cloudfront.net/s/_ceophoto/512x512/2c0997a3c011aace284cc9a6fb9b0114"
+"linkedin","https://www.linkedin.com/jobs/view/3980387132","","Sr. Software Engineer","Align Technology","Toronto, Ontario, Canada","","2024-07-22","","","","","","","","https://www.linkedin.com/company/align-technology","","","","","","","","","",""
+"linkedin","https://www.linkedin.com/jobs/view/3980073831","","Director, Solutions Architect","Cohere","Toronto, Ontario, Canada","","","","","","","","","","https://ca.linkedin.com/company/cohere-ai","","","","","","","","","",""
+"linkedin","https://www.linkedin.com/jobs/view/3982690516","","Senior Data Scientist (User Growth)","Jerry","Toronto, Ontario, Canada","","","","","","","","","","https://www.linkedin.com/company/jerryinc","","","","","","","","","",""
+"linkedin","https://www.linkedin.com/jobs/view/3967702807","","Enterprise Data Architect","Parkbridge","Toronto, Ontario, Canada","","","","","","","","","","https://ca.linkedin.com/company/parkbridge","","","","","","","","","",""
+"linkedin","https://www.linkedin.com/jobs/view/3982540362","","Salesforce Solution Architect, CPQ","NeuraFlash","Toronto, Ontario, Canada","","","","","","","","","","https://www.linkedin.com/company/neuraflash","","","","","","","","","",""
+"linkedin","https://www.linkedin.com/jobs/view/3983251719","","Senior Software Engineer","Warner Music Group","Toronto, Ontario, Canada","","","","","","","","","","https://www.linkedin.com/company/warner-music-group","","","","","","","","","",""
+"linkedin","https://www.linkedin.com/jobs/view/3980796340","","MLOps/Senior Software Developer - Artificial Intelligence / Machine Learning","Clio - Cloud-Based Legal Technology","Toronto, Ontario, Canada","","","","","","","","","","https://ca.linkedin.com/company/clio---cloud-based-legal-technology","","","","","","","","","",""
+"linkedin","https://www.linkedin.com/jobs/view/3980901451","","Sr. GenAI Data Scientist (RAG, NLP, LLM) - Virtual","S&P Global","Toronto, Ontario, Canada","","","","","","","","","","https://www.linkedin.com/company/spglobal","","","","","","","","","",""
+"linkedin","https://www.linkedin.com/jobs/view/3983257584","","GCP Data Engineer Lead","COGNITO INC","Toronto, Ontario, Canada","","","","","","","","","","https://ca.linkedin.com/company/cognito-bpm","","","","","","","","","",""
+"linkedin","https://www.linkedin.com/jobs/view/3932723292","","Senior Physics Software Engineer","Electronic Arts (EA)","Toronto, Ontario, Canada","","","","","","","","","","https://www.linkedin.com/company/electronic-arts","","","","","","","","","",""
+"zip_recruiter","https://www.ziprecruiter.com/jobs//j?lvk=mTPbHYWJY23SHqT7nQUQ7w","","Lead Analog Engineer - Toronto","Acceler8 Talent","Toronto, ON, Canada","","2024-07-22","","","","","","","... **AI** computing through cutting-edge technology and groundbreaking **solutions**. Join the analog team at ... Support chip **architects** in micro-**architecture** development through feasibility studies","","","","","","","","","","",""
