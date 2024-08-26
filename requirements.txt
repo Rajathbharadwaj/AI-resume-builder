@@ -13,3 +13,4 @@ langgraph-cli
 langchain_pinecone
 python-jobspy
 fastapi[standard]
+pylatex
