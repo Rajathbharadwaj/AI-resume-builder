@@ -1,5 +1,6 @@
 from io import StringIO
 from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import shutil
 import os
@@ -15,6 +16,15 @@ import pandas as pd
 from datetime import datetime, date
 
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
 # @app.get("/upload-pdf/")
 # async def upload_pdf(file: UploadFile = File(...)):
