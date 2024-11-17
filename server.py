@@ -1,5 +1,6 @@
 from io import StringIO
 from fastapi import FastAPI, UploadFile, File, HTTPException
+from typing import Optional
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import shutil
@@ -45,18 +46,21 @@ app.add_middleware(
 #         return JSONResponse(content={"message": f"Error processing PDF: {str(e)}"}, status_code=500)
 
 @app.post("/process-resume/")
-async def process_resume(resume_text: str, job_description: str):
+async def process_resume(resume_text: str, job_description: Optional[str] = None):
     try:
         # Call the get_similarity function with the resume text
-        optimized_resume, latex = create_resume_latex(resume_text=resume_text, job_description=job_description)  # Assuming 'jobs' is available
-        cover_letter = create_cover_letter(resume_text=optimized_resume, job_description=job_description)
-        jobs_titles, experience = get_top_4_jobs(resume_text=optimized_resume)
+        if job_description is None:
+            jobs_titles, experience = get_top_4_jobs(resume_text=resume_text)  # Assuming 'jobs' is available
+        else:   
+            optimized_resume, latex = create_resume_latex(resume_text=resume_text, job_description=job_description)  # Assuming 'jobs' is available
+            cover_letter = create_cover_letter(resume_text=optimized_resume, job_description=job_description)
+            jobs_titles, experience = get_top_4_jobs(resume_text=optimized_resume)
 
         return JSONResponse(content={
             "message": "Resume processed successfully",
-            "optimized_resume": optimized_resume, 
-            "latex": latex, 
-            "cover_letter": cover_letter, 
+            "optimized_resume": optimized_resume if optimized_resume else None, 
+            "latex": latex if latex else None, 
+            "cover_letter": cover_letter if cover_letter else None, 
             "jobs_titles": jobs_titles, 
             "experience": experience}, 
         status_code=200)
