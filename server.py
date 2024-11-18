@@ -1,10 +1,12 @@
 from io import StringIO
 from fastapi import FastAPI, UploadFile, File, HTTPException
-from typing import Optional
+from typing import List, Optional
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import shutil
 import os
+
+from pydantic import BaseModel
 from llm_logic import create_resume_latex, create_cover_letter, get_jobs_from_api, get_top_4_jobs  
 from fastapi.responses import FileResponse
 import tempfile
@@ -44,10 +46,15 @@ app.add_middleware(
 #         return JSONResponse(content={"message": "PDF processed successfully", "result": result}, status_code=200)
 #     except Exception as e:
 #         return JSONResponse(content={"message": f"Error processing PDF: {str(e)}"}, status_code=500)
+class ResumeProcessingResponse(BaseModel):
+    resume_text: str
+    job_description: Optional[str] = None
 
 @app.post("/process-resume/")
-async def process_resume(resume_text: str, job_description: Optional[str] = None):
+async def process_resume(resume_data: ResumeProcessingResponse):
     try:
+        resume_text = resume_data.resume_text
+        job_description = resume_data.job_description
         # Call the get_similarity function with the resume text
         if job_description is None:
             jobs_titles, experience = get_top_4_jobs(resume_text=resume_text)  # Assuming 'jobs' is available
@@ -56,11 +63,13 @@ async def process_resume(resume_text: str, job_description: Optional[str] = None
             cover_letter = create_cover_letter(resume_text=optimized_resume, job_description=job_description)
             jobs_titles, experience = get_top_4_jobs(resume_text=optimized_resume)
 
+
+
         return JSONResponse(content={
             "message": "Resume processed successfully",
-            "optimized_resume": optimized_resume if optimized_resume else None, 
-            "latex": latex if latex else None, 
-            "cover_letter": cover_letter if cover_letter else None, 
+            "optimized_resume": optimized_resume if job_description else None, 
+            "latex": latex if job_description else None, 
+            "cover_letter": cover_letter if job_description else None, 
             "jobs_titles": jobs_titles, 
             "experience": experience}, 
         status_code=200)
