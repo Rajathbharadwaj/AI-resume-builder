@@ -17,6 +17,7 @@ import json
 import numpy as np
 import pandas as pd
 from datetime import datetime, date
+from unstructured.partition.auto import partition
 
 app = FastAPI()
 
@@ -76,6 +77,8 @@ async def process_resume(resume_data: ResumeProcessingResponse):
     
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing resume: {str(e)}")
+
+
 
 @app.get("/download-resume-pdf/")
 async def download_resume_pdf(latex_content: str, name: str):
@@ -152,3 +155,43 @@ def get_jobs(job_title: str, city: str, country: str, total_jobs: int):
         return parsed
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error getting jobs: {str(e)}")
+
+@app.post("/upload-and-process-resume/")
+async def upload_and_process_resume(
+    file: UploadFile = File(...),
+    job_description: str = None
+):
+    try:
+        # Verify file type
+        if not file.filename.endswith('.pdf'):
+            raise HTTPException(status_code=400, detail="Only PDF files are accepted")
+
+        # Create a temporary file to store the uploaded PDF
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as temp_file:
+            # Write uploaded file content to temporary file
+            content = await file.read()
+            temp_file.write(content)
+            temp_path = temp_file.name
+
+        try:
+            # Parse PDF using unstructured
+            elements = partition(temp_path)
+            resume_text = "\n".join([str(element) for element in elements])
+
+            # Process the resume using existing endpoint logic
+            resume_data = ResumeProcessingResponse(
+                resume_text=resume_text,
+                job_description=job_description
+            )
+            
+            # Call the existing process_resume function
+            result = await process_resume(resume_data)
+            
+            return result
+
+        finally:
+            # Clean up: remove temporary file
+            os.unlink(temp_path)
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error processing PDF: {str(e)}")

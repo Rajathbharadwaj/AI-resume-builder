@@ -14,3 +14,4 @@ langchain_pinecone
 python-jobspy
 fastapi[standard]
 pylatex
+unstructured[pdf]
